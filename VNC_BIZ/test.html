@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>VNC Project</title>
+</head>
+<body>
+</script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <INPUT TYPE="TEXT" tabindex="1" VALUE="Number One" NAME="burns">
+    <INPUT TYPE="TEXT" tabindex="2" VALUE="Number Three">
+    <INPUT TYPE="TEXT" tabindex="3" VALUE="Number Five">
+    <INPUT TYPE="TEXT" tabindex="4" VALUE="Number Six">
+    <INPUT TYPE="TEXT" tabindex="5" VALUE="Number Four">
+    <INPUT TYPE="TEXT" tabindex="6" VALUE="Number Two">
+    <button tabindex="7" type="button">Click Me!</button>
+<script type="text/javascript">
+
+$(document).ready(function(event) {
+  var tabbableElements = 'a[href], area[href], input:not([disabled]),' +
+  'select:not([disabled]), textarea:not([disabled]),' +
+  'button:not([disabled]), iframe, object, embed, *[tabindex],' +
+  '*[contenteditable]';
+var allTabbableElements = document.querySelectorAll(tabbableElements);
+
+var firstTabbableElement = allTabbableElements[0];
+var lastTabbableElement = allTabbableElements[allTabbableElements.length - 1];
+
+
+var keyListener = function (event) {
+    var keyCode = event.which || event.keyCode; // Get the current keycode
+ 
+    // If it is TAB
+    if (keyCode === 9) {
+ 
+      // Prevent the default behavior
+      if (event.preventDefault) {
+        event.preventDefault();
+      } else {
+        event.returnValue = false;
+      }
+ 
+      // Move the focus to the first element that can be tabbed
+      firstTabbableElement.focus();
+    }
+  };
+ 
+lastTabbableElement.addEventListener('keydown', keyListener, false);
+
+});
+</script>
+</body>
+</html>

@@ -1,0 +1,42 @@
+From 9bfdc32cb406d229c50907dfe63bc5c6c8d3c788 Mon Sep 17 00:00:00 2001
+From: vnc <vnc@prosody-dev4.vnctalk.zimbra-vnc.de>
+Date: Fri, 24 Apr 2015 05:12:37 +0200
+Subject: [PATCH] [16143] Fix auto scroll for timeslider
+
+---
+ src/static/js/broadcast.js        | 1 +
+ src/static/js/broadcast_slider.js | 6 ++++--
+ 2 files changed, 5 insertions(+), 2 deletions(-)
+
+diff --git a/src/static/js/broadcast.js b/src/static/js/broadcast.js
+index 817155b..1b44ba5 100644
+--- a/src/static/js/broadcast.js
++++ b/src/static/js/broadcast.js
+@@ -151,6 +151,7 @@ function loadBroadcastJS(socket, sendSocketMsg, fireWhenAllScriptsAreLoaded, Bro
+       newLines.unshift(numRemoved);
+       newLines.unshift(start);
+       this.currentLines.splice.apply(this.currentLines, arguments);
++      $("#editorcontainerbox").scrollTop($("#editorcontainerbox")[0].scrollHeight);
+     },
+     // returns the contents of the specified line I
+     get: function(i)
+diff --git a/src/static/js/broadcast_slider.js b/src/static/js/broadcast_slider.js
+index 7f0e48b..26063cf 100644
+--- a/src/static/js/broadcast_slider.js
++++ b/src/static/js/broadcast_slider.js
+@@ -167,8 +167,10 @@ function loadBroadcastSliderJS(fireWhenAllScriptsAreLoaded)
+     }
+ 
+     var fixPadHeight = _.throttle(function(){
+-      var height = $('#timeslider-top').height();
+-      $('#editorcontainerbox').css({marginTop: height});
++      var heightTime = $('#timeslider-top').height();
++      var heightPad = $('#padmain').height();
++      var heigh = heightPad - heightTime;
++      $('#editorcontainerbox').css({marginTop: heightTime, height: heigh});
+     }, 600);
+     
+     function setAuthors(authors)
+-- 
+1.9.1
+

@@ -1,0 +1,105 @@
+Sent active chatstate to hai.bui@vnc.biz
+Sent inactive chatstate to hai.bui@vnc.biz
+Offering: vnctallk_add-people_Error-z8test_1.mp4 15687566 video/mp4 Wed May 13 2015 17:31:01 GMT+0700 (SE Asia Standard Time)
+SENT:  <iq xmlns="jabber:client" to="hai.bui@vnc.biz/file_transfer" type="set" id="ff4c0553-212c-4a2f-b8d4-03709cf23f00"><jingle xmlns="urn:xmpp:jingle:1" sid="1431592577241" action="session-initiate"><content creator="initiator" name="data"><description xmlns="urn:xmpp:jingle:apps:file-transfer:3"><offer><file><date>2015-05-13T10:31:01.723Z</date><name>vnctallk_add-people_Error-z8test_1.mp4</name><size>15687566</size><hash xmlns="urn:xmpp:hashes:1" algo="sha-1"></hash></file></offer></description><transport xmlns="urn:xmpp:jingle:transports:ice-udp:1" ufrag="mZr4ngqIERqlYsqe" pwd="030knX1tKmTo+rssTHwzYYUI"><fingerprint xmlns="urn:xmpp:jingle:apps:dtls:0" hash="sha-256" setup="actpass">25:4F:66:01:02:CD:08:90:91:AA:33:E0:83:5F:D2:21:AC:C2:3A:9C:0B:7E:3C:E0:AA:23:5A:05:4C:AB:64:4F</fingerprint><sctpmap xmlns="urn:xmpp:jingle:transports:dtls-sctp:1" number="5000" protocol="webrtc-datachannel" streams="1024"/></transport></content></jingle></iq>
+SENT:  <iq xmlns="jabber:client" to="hai.bui@vnc.biz/file_transfer" type="set" id="1ebae373-29bf-4bdd-8ee0-7bba5380d1ff"><jingle xmlns="urn:xmpp:jingle:1" sid="1431592577241" action="transport-info"><content name="data" creator="initiator"><transport xmlns="urn:xmpp:jingle:transports:ice-udp:1" ufrag="mZr4ngqIERqlYsqe" pwd="030knX1tKmTo+rssTHwzYYUI"><candidate foundation="1362583084" component="1" protocol="udp" priority="2122194687" ip="192.168.3.117" port="65039" type="host" generation="0" network="1" id="9.88lnv7wrr2"/></transport></content></jingle></iq>
+SENT:  <iq xmlns="jabber:client" to="hai.bui@vnc.biz/file_transfer" type="set" id="dbd01b45-3622-4b59-b7dd-dd5e9b0db749"><jingle xmlns="urn:xmpp:jingle:1" sid="1431592577241" action="transport-info"><content name="data" creator="initiator"><transport xmlns="urn:xmpp:jingle:transports:ice-udp:1" ufrag="mZr4ngqIERqlYsqe" pwd="030knX1tKmTo+rssTHwzYYUI"><candidate foundation="531931868" component="1" protocol="tcp" priority="1518214911" ip="192.168.3.117" port="0" type="host" generation="0" tcptype="active" network="1" id="b.88lnv7wrr2"/></transport></content></jingle></iq>
+RECV:  <iq type="result" to="phuong.vu@vnc.biz/file_transfer" from="hai.bui@vnc.biz/file_transfer" id="ff4c0553-212c-4a2f-b8d4-03709cf23f00" xmlns="jabber:client" xml:lang="en"/>
+RECV  [object Object]
+RECV:  <iq type="result" to="phuong.vu@vnc.biz/file_transfer" from="hai.bui@vnc.biz/file_transfer" id="1ebae373-29bf-4bdd-8ee0-7bba5380d1ff" xmlns="jabber:client" xml:lang="en"/>
+RECV  [object Object]
+RECV:  <iq type="result" to="phuong.vu@vnc.biz/file_transfer" from="hai.bui@vnc.biz/file_transfer" id="dbd01b45-3622-4b59-b7dd-dd5e9b0db749" xmlns="jabber:client" xml:lang="en"/>
+RECV  [object Object]
+RECV:  <iq type="set" to="phuong.vu@vnc.biz/file_transfer" from="hai.bui@vnc.biz/file_transfer" id="0040cfc2-c95c-4775-8b42-3a9d5aaf2b8b" xmlns="jabber:client" xml:lang="en"><jingle sid="1431592577241" action="session-accept" xmlns="urn:xmpp:jingle:1"><content creator="initiator" name="data"><transport ufrag="Th4094o9rDuFtTaK" pwd="pKCoRcIHHOLrSqHcvePKIYz2" xmlns="urn:xmpp:jingle:transports:ice-udp:1"><fingerprint hash="sha-256" setup="active" xmlns="urn:xmpp:jingle:apps:dtls:0">68:A5:AC:0F:0C:9A:83:14:6E:0F:85:6B:DF:72:DF:5E:BA:B2:DC:0C:98:DF:96:32:0D:55:69:8A:A9:49:B5:F2</fingerprint><sctpmap number="5000" streams="1024" protocol="webrtc-datachannel" xmlns="urn:xmpp:jingle:transports:dtls-sctp:1"/></transport></content></jingle></iq>
+RECV  [object Object]
+SENT:  <iq xmlns="jabber:client" to="hai.bui@vnc.biz/file_transfer" id="0040cfc2-c95c-4775-8b42-3a9d5aaf2b8b" type="result"/>
+RECV:  <iq type="set" to="phuong.vu@vnc.biz/file_transfer" from="hai.bui@vnc.biz/file_transfer" id="73b1bbb9-15db-4316-b60f-237f3c4d4439" xmlns="jabber:client" xml:lang="en"><jingle sid="1431592577241" action="transport-info" xmlns="urn:xmpp:jingle:1"><content name="data" creator="responder"><transport ufrag="Th4094o9rDuFtTaK" pwd="pKCoRcIHHOLrSqHcvePKIYz2" xmlns="urn:xmpp:jingle:transports:ice-udp:1"><candidate type="host" protocol="udp" id="2.vp59hr1klw" ip="10.20.8.26" component="1" port="43982" foundation="2078822838" generation="0" priority="2122260223" network="1"/></transport></content></jingle></iq>
+RECV  [object Object]
+SENT:  <iq xmlns="jabber:client" to="hai.bui@vnc.biz/file_transfer" id="73b1bbb9-15db-4316-b60f-237f3c4d4439" type="result"/>
+RECV:  <iq type="set" to="phuong.vu@vnc.biz/file_transfer" from="hai.bui@vnc.biz/file_transfer" id="79763256-32d3-4dc5-9602-ec8569ccab49" xmlns="jabber:client" xml:lang="en"><jingle sid="1431592577241" action="transport-info" xmlns="urn:xmpp:jingle:1"><content name="data" creator="responder"><transport ufrag="Th4094o9rDuFtTaK" pwd="pKCoRcIHHOLrSqHcvePKIYz2" xmlns="urn:xmpp:jingle:transports:ice-udp:1"><candidate type="host" protocol="udp" id="6.vp59hr1klw" ip="192.168.1.238" component="1" port="54288" foundation="3072682185" generation="0" priority="2122194687" network="1"/></transport></content></jingle></iq>
+RECV  [object Object]
+RECV:  <iq type="set" to="phuong.vu@vnc.biz/file_transfer" from="hai.bui@vnc.biz/file_transfer" id="62e8528e-80e3-40a7-96d2-2720db3fd7a8" xmlns="jabber:client" xml:lang="en"><jingle sid="1431592577241" action="transport-info" xmlns="urn:xmpp:jingle:1"><content name="data" creator="responder"><transport ufrag="Th4094o9rDuFtTaK" pwd="pKCoRcIHHOLrSqHcvePKIYz2" xmlns="urn:xmpp:jingle:transports:ice-udp:1"><candidate type="host" protocol="tcp" id="8.vp59hr1klw" ip="10.20.8.26" component="1" port="0" foundation="896249158" generation="0" network="1" priority="1518280447" tcptype="active"/></transport></content></jingle></iq>
+RECV  [object Object]
+RECV:  <iq type="set" to="phuong.vu@vnc.biz/file_transfer" from="hai.bui@vnc.biz/file_transfer" id="9ed73a5f-d373-4ff5-acab-0483623639a7" xmlns="jabber:client" xml:lang="en"><jingle sid="1431592577241" action="transport-info" xmlns="urn:xmpp:jingle:1"><content name="data" creator="responder"><transport ufrag="Th4094o9rDuFtTaK" pwd="pKCoRcIHHOLrSqHcvePKIYz2" xmlns="urn:xmpp:jingle:transports:ice-udp:1"><candidate type="host" protocol="tcp" id="a.vp59hr1klw" ip="192.168.1.238" component="1" port="0" foundation="4188443705" generation="0" network="1" priority="1518214911" tcptype="active"/></transport></content></jingle></iq>
+RECV  [object Object]
+RECV:  <iq type="set" to="phuong.vu@vnc.biz/file_transfer" from="hai.bui@vnc.biz/file_transfer" id="c1ce8994-d67b-4f76-a79f-af361a97e679" xmlns="jabber:client" xml:lang="en"><jingle sid="1431592577241" action="transport-info" xmlns="urn:xmpp:jingle:1"><content name="data" creator="responder"><transport ufrag="Th4094o9rDuFtTaK" pwd="pKCoRcIHHOLrSqHcvePKIYz2" xmlns="urn:xmpp:jingle:transports:ice-udp:1"><candidate rel-port="43982" type="srflx" protocol="udp" id="c.vp59hr1klw" ip="193.254.187.146" component="1" port="27142" foundation="2563364698" generation="0" rel-addr="10.20.8.26" priority="1686052607" network="1"/></transport></content></jingle></iq>
+RECV  [object Object]
+SENT:  <iq xmlns="jabber:client" to="hai.bui@vnc.biz/file_transfer" id="79763256-32d3-4dc5-9602-ec8569ccab49" type="result"/>
+SENT:  <iq xmlns="jabber:client" to="hai.bui@vnc.biz/file_transfer" id="62e8528e-80e3-40a7-96d2-2720db3fd7a8" type="result"/>
+SENT:  <iq xmlns="jabber:client" to="hai.bui@vnc.biz/file_transfer" id="9ed73a5f-d373-4ff5-acab-0483623639a7" type="result"/>
+SENT:  <iq xmlns="jabber:client" to="hai.bui@vnc.biz/file_transfer" id="c1ce8994-d67b-4f76-a79f-af361a97e679" type="result"/>
+Sent to hai.bui@vnc.biz: 0/15687566
+Sent to hai.bui@vnc.biz: 16000/15687566
+Sent to hai.bui@vnc.biz: 32000/15687566
+Sent to hai.bui@vnc.biz: 48000/15687566
+Sent to hai.bui@vnc.biz: 64000/15687566
+Sent to hai.bui@vnc.biz: 80000/15687566
+Sent to hai.bui@vnc.biz: 96000/15687566
+Sent to hai.bui@vnc.biz: 112000/15687566
+Sent to hai.bui@vnc.biz: 128000/15687566
+Sent to hai.bui@vnc.biz: 144000/15687566
+Sent to hai.bui@vnc.biz: 160000/15687566
+Sent to hai.bui@vnc.biz: 176000/15687566
+Sent to hai.bui@vnc.biz: 192000/15687566
+Sent to hai.bui@vnc.biz: 208000/15687566
+Sent to hai.bui@vnc.biz: 224000/15687566
+Sent to hai.bui@vnc.biz: 240000/15687566
+Sent to hai.bui@vnc.biz: 256000/15687566
+Sent to hai.bui@vnc.biz: 272000/15687566
+Sent to hai.bui@vnc.biz: 288000/15687566
+Sent to hai.bui@vnc.biz: 304000/15687566
+Sent to hai.bui@vnc.biz: 320000/15687566
+Sent to hai.bui@vnc.biz: 336000/15687566
+Sent to hai.bui@vnc.biz: 352000/15687566
+Sent to hai.bui@vnc.biz: 368000/15687566
+Sent to hai.bui@vnc.biz: 384000/15687566
+Sent to hai.bui@vnc.biz: 400000/15687566
+Sent to hai.bui@vnc.biz: 416000/15687566
+Sent to hai.bui@vnc.biz: 432000/15687566
+Sent to hai.bui@vnc.biz: 448000/15687566
+Sent to hai.bui@vnc.biz: 464000/15687566
+Sent to hai.bui@vnc.biz: 480000/15687566
+Sent to hai.bui@vnc.biz: 496000/15687566
+Sent to hai.bui@vnc.biz: 512000/15687566
+Sent to hai.bui@vnc.biz: 528000/15687566
+Sent to hai.bui@vnc.biz: 544000/15687566
+Sent to hai.bui@vnc.biz: 560000/15687566
+Sent to hai.bui@vnc.biz: 576000/15687566
+Sent to hai.bui@vnc.biz: 592000/15687566
+Sent to hai.bui@vnc.biz: 608000/15687566
+Sent to hai.bui@vnc.biz: 624000/15687566
+Sent to hai.bui@vnc.biz: 640000/15687566
+Sent to hai.bui@vnc.biz: 656000/15687566
+Sent to hai.bui@vnc.biz: 672000/15687566
+Sent to hai.bui@vnc.biz: 688000/15687566
+Sent to hai.bui@vnc.biz: 704000/15687566
+Sent to hai.bui@vnc.biz: 720000/15687566
+Sent to hai.bui@vnc.biz: 736000/15687566
+Sent to hai.bui@vnc.biz: 752000/15687566
+Sent to hai.bui@vnc.biz: 768000/15687566
+Sent to hai.bui@vnc.biz: 784000/15687566
+Sent to hai.bui@vnc.biz: 800000/15687566
+Sent to hai.bui@vnc.biz: 816000/15687566
+Sent to hai.bui@vnc.biz: 832000/15687566
+Sent to hai.bui@vnc.biz: 848000/15687566
+Sent to hai.bui@vnc.biz: 864000/15687566
+Sent to hai.bui@vnc.biz: 880000/15687566
+Sent to hai.bui@vnc.biz: 896000/15687566
+Sent to hai.bui@vnc.biz: 912000/15687566
+Sent to hai.bui@vnc.biz: 928000/15687566
+Sent to hai.bui@vnc.biz: 944000/15687566
+Sent to hai.bui@vnc.biz: 960000/15687566
+Sent to hai.bui@vnc.biz: 976000/15687566
+Sent to hai.bui@vnc.biz: 992000/15687566
+Sent to hai.bui@vnc.biz: 1008000/15687566
+Sent to hai.bui@vnc.biz: 1024000/15687566
+Sent to hai.bui@vnc.biz: 1040000/15687566
+Sent to hai.bui@vnc.biz: 1056000/15687566
+Sent to hai.bui@vnc.biz: 1072000/15687566
+Sent to hai.bui@vnc.biz: 1088000/15687566
+Sent to hai.bui@vnc.biz: 1104000/15687566
+Sent to hai.bui@vnc.biz: 1120000/15687566
+Sent to hai.bui@vnc.biz: 1136000/15687566
+Sent to hai.bui@vnc.biz: 1152000/15687566
+Sent to hai.bui@vnc.biz: 1168000/15687566
+Sent to hai.bui@vnc.biz: 1184000/15687566

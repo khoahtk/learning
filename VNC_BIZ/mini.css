@@ -1,0 +1,3130 @@
+/*
+ * This Source Code Form is subject to the terms of the Mozilla Public
+ * License, v. 2.0. If a copy of the MPL was not distributed with this
+ * file, You can obtain one at http://mozilla.org/MPL/2.0/.
+ *
+ *
+ * This compound file may be composed of several subfiles by different authors.
+ * The particular authors, copyright information, disclaimers and alternative
+ * licenses for the subfiles are indicated in separate headers.
+ *
+ */
+
+
+/*
+
+Jappix - An open social platform
+This is the Jappix Mini CSS stylesheet
+
+-------------------------------------------------
+
+License: dual-licensed under AGPL and MPLv2
+Authors: Valérian Saliou, Julien, hunterjm, Kloadut
+
+*/
+
+#jappix_mini,
+#jappix_popup {
+  font: normal 11px helvetica, "Lucida Grande", "Lucida Sans", "Lucida Sans Unicode", Arial, sans-serif;
+  min-width: 280px;
+}
+
+#jappix_mini textarea,
+#jappix_popup textarea,
+#jappix_mini input,
+#jappix_popup input{
+font-family: helvetica,"Lucida Grande", "Lucida Sans", "Lucida Sans Unicode", Arial, sans-serif;
+}
+
+#jappix_mini {
+  margin-left: 130px;
+  position: fixed;
+  bottom: 0;
+  right: 20px;
+  display: block !important;
+  z-index: 599;
+  background-color: initial;
+  width: initial;
+  height: initial;
+  overflow: initial !important;
+  border: initial;
+}
+
+#jappix_mini *,
+#jappix_popup * {
+  font-size: 1.1rem;
+  margin: 0;
+  border: none;
+}
+
+
+/*#jappix_mini[dir="rtl"] *,
+#jappix_popup[dir="rtl"] * {
+    text-align: right;
+}*/
+
+
+#jappix_mini .jm_images {
+  background-image: url(../images/sprites/mini.png);
+  background-repeat: no-repeat;
+}
+
+#jappix_mini .jm_images_animate {
+  background-image: url(../images/sprites/animate.png);
+  background-repeat: no-repeat;
+}
+
+#jappix_mini input.placeholder {
+  color: #999999 !important;
+}
+
+#jappix_mini input:-moz-placeholder {
+  color: #999999 !important;
+}
+
+#jappix_mini input::-webkit-input-placeholder {
+  color: #999999 !important;
+}
+
+#jappix_mini a {
+  text-decoration: none;
+  cursor: pointer;
+}
+
+#jappix_mini a:hover {
+  cursor: pointer;
+}
+
+#jappix_mini div.jm_position {
+  float: right;
+}
+
+#jappix_mini a.jm_pane {
+  display: block;
+  border: 1px solid #777777;
+  border-bottom: none;
+  padding: 3px 15px;
+  display: block;
+  bottom: 0;
+  background-color: #ffffff;
+}
+
+#jappix_mini div.jm_starter {
+  float: right;
+  position: relative;
+}
+
+#jappix_mini div.jm_conversations,
+#jappix_mini div.jm_conversation,
+#jappix_mini a.jm_switch {
+  float: left;
+  position: relative;
+}
+
+#jappix_mini a.jm_switch {
+  border-right: none;
+  padding-bottom: 3px;
+}
+
+#jappix_mini a.jm_switch.jm_notifnav {
+  background-position: 0 -432px !important;
+}
+
+#jappix_mini a.jm_switch span.jm_navigation {
+  width: 16px;
+  height: 16px;
+  margin-top: 2px;
+  display: block;
+}
+
+#jappix_mini a.jm_switch.jm_right span.jm_navigation {
+  background-position: 0 -400px;
+}
+
+#jappix_mini a.jm_switch.jm_left span.jm_navigation {
+  background-position: 0 -416px;
+}
+
+#jappix_mini div.jm_conversation {
+  width: 153px;
+}
+
+#jappix_mini a.jm_chat-tab {
+  border-width: 1px 0 0 1px;
+/*  width: 128px;
+  height: 21px;*/
+  overflow: hidden;
+  background: #E0E5EB;
+  border-color: #9EB1B7;
+}
+
+#jappix_mini a.jm_chat-tab span.jm_presence {
+  left: 2px;
+  margin-top: 0;
+}
+
+#jappix_mini a.jm_chat-tab span.jm_name {
+  margin-left: 10px;
+}
+
+#jappix_mini a.jm_chat-tab.jm_clicked {
+  background: white;
+  position: relative;
+  border-top: none;
+  border-left: 1px solid #999999;
+}
+
+#jappix_mini a.jm_chat-tab span.jm_notify {
+  position: absolute;
+  top: 2px;
+  right: 9px;
+}
+
+#jappix_mini a.jm_chat-tab span.jm_notify span {
+  float: left;
+}
+
+#jappix_mini a.jm_chat-tab span.jm_notify span.jm_notify_left {
+  background-position: 0 -360px;
+}
+
+#jappix_mini a.jm_chat-tab span.jm_notify span.jm_notify_right {
+  background-position: -7px -360px;
+}
+
+#jappix_mini a.jm_chat-tab span.jm_notify span.jm_notify_left,
+#jappix_mini a.jm_chat-tab span.jm_notify span.jm_notify_right {
+  height: 16px;
+  width: 7px;
+  background-color: #c60505;
+}
+
+#jappix_mini a.jm_chat-tab span.jm_notify span.jm_notify_middle {
+  background-color: #c60505;
+  font-size: 0.8em;
+  border-radius: 50%;
+  width: 20px;
+  height: 20px;
+  color: #fff;
+  line-height: 20px;
+  text-align: center;
+  border: 1px solid #fff;
+
+}
+
+#jappix_mini div.jm_conversation.jm_type_groupchat span.jm_name {
+  margin-left: 4px;
+}
+
+
+/*#jappix_mini[dir="rtl"] div.jm_conversation.jm_type_groupchat span.jm_name {
+  margin-left: 0;
+  margin-right: 4px;
+}*/
+
+#jappix_mini div.jm_chat-content {
+  background-color: white;
+  border: 1px solid #999999;
+  height: 377px;
+  width: 260px;
+  position: absolute;
+  right: -1px;
+  bottom: 26px;
+  display: none;
+}
+
+#jappix_mini div.jm_actions {
+  background-color: #0087c3;
+  border-bottom: 1px solid #eaeaea;
+}
+
+#jappix_mini .jm_actions.jm_header_actions {
+  padding: 21px 6px;
+  position: relative;
+}
+
+#jappix_mini div.jm_actions.roster_head {
+  border-bottom: 1px solid #0087c3;
+  padding: 9px 6px 0 6px;
+  text-align: right;
+}
+
+#jappix_mini div.jm_chat_description {
+  background-color: #0087c3;
+  color: white;
+  padding: 15px 6px;
+  font-weight: bold;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+#jappix_mini div.jm_chat_button_bar {
+  background-color: transparent;
+  height: 14px;
+  padding: 9px 6px;
+  bottom: 0;
+  border-bottom: 1px solid #999999;
+  position: absolute;
+  width: 248px;
+}
+
+#jappix_mini div.tooltip-content {
+  display: none;
+  position: absolute;
+  padding: 10px;
+  background-color: #FFFFFF;
+  /*color: white;*/
+  font-size: 0.95em;
+  max-height: 860px;
+  width: 300px;
+  z-index: 1;
+  border-style: groove;
+  border-width: thin;
+}
+#jappix_mini div.tooltip-content.right:before {
+  color: black;
+  right: 100%;
+  border: solid transparent;
+  content: " ";
+  position: absolute;
+  pointer-events: none;
+  border-right-color: #FFFFFF;
+  border-top-width: 12px;
+  border-bottom-width: 12px;
+  border-right-width: 12px;
+  bottom: 300px;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  overflow: hidden;
+}
+#jappix_mini div.tooltip-content.left:before {
+  color: black;
+  left: 100%;
+  border: solid transparent;
+  content: " ";
+  position: absolute;
+  pointer-events: none;
+  border-left-color: #FFFFFF;
+  border-top-width: 12px;
+  border-bottom-width: 12px;
+  border-left-width: 12px;
+  bottom: 300px;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  overflow: hidden;
+}
+
+#jappix_mini div.tooltip-content.left.edit_arrow_position:before {
+  top: 60px;
+}
+
+#jappix_mini div.tooltip-content.right.edit_arrow_position:before {
+  top: 60px;
+}
+
+
+#jappix_mini div.tooltip-content form .jm_prompt_header {
+  height: 30px;
+  font-weight: bold;
+  /*text-overflow: ellipsis;
+  white-space: nowrap;
+  overflow: hidden;*/
+  color: black;
+}
+#jappix_mini div.tooltip-content form .jm_prompt_header .jm_groupsub{
+    width: 63%;
+    background-color: #f0f0f0;
+    border: none;
+    height: 26px;
+    font-size: 1.3rem;
+    color: black;
+}
+#jappix_mini div.tooltip-content form .jm_prompt_header .jm_groupsub.disable{
+    width: 63%;
+    background-color: #FFFFFF;
+    border: none;
+    height: 26px;
+    font-size: 1.3rem;
+    color: black;
+    font-weight: bold;
+}
+#jappix_mini div.tooltip-content form .jm_prompt_header .jm_submit{
+  color: white;
+  border: none;
+  background-color: #0087c3;
+  height: 26px;
+  border-radius: 2px;
+  /*box-shadow: 0 0 1px #2e6da4;*/
+  cursor: pointer;
+  width: 34%;
+  margin-left: 3px;
+  font-size: 1.1rem;
+  font-weight: bold;
+  text-align: center;
+}
+#jappix_mini hr.tooltip-content-break {
+  height: 1px;
+  background: #e5e5e5;
+  margin: 11px 0px 11px 0px;
+  padding-right: 21px;
+}
+#jappix_mini div.tooltip-content form .jm_num_parti {
+	font-size: 1.2rem;
+	font-weight: bold;
+}
+#jappix_mini div.tooltip-content form .jm_subject_option {
+  font-weight: bold;
+  font-size: 1.1rem;
+  margin-bottom: 3px;
+}
+#jappix_mini div.tooltip-content div.members-content {
+    /*max-height: 755px;*/
+    position: relative;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    color: black;
+    overflow-y: auto;
+    max-height: 60vh;
+}
+
+#jappix_mini div.border-around.right {
+  left: 108%;
+}
+
+#jappix_mini div.border-around.left {
+  right: 108%;
+}
+/*Switch on off*/
+
+#jappix_mini div.tooltip-content .flipswitch {
+  top: 5px;
+  display: inline-block;
+  position: relative;
+  width: 35px;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+}
+
+#jappix_mini div.tooltip-content .flipswitch input[type=checkbox] {
+  display: none;
+}
+
+#jappix_mini div.tooltip-content .flipswitch-label {
+  display: block;
+  overflow: hidden;
+  cursor: pointer;
+  border: 1px solid #FFFFFF;
+  border-radius: 50px;
+}
+
+#jappix_mini div.tooltip-content .flipswitch-inner {
+  width: 200%;
+  margin-left: -100%;
+  -webkit-transition: margin 0.3s ease-in 0s;
+  -moz-transition: margin 0.3s ease-in 0s;
+  -ms-transition: margin 0.3s ease-in 0s;
+  -o-transition: margin 0.3s ease-in 0s;
+  transition: margin 0.3s ease-in 0s;
+}
+
+#jappix_mini div.tooltip-content .flipswitch-inner:before,
+.flipswitch-inner:after {
+  float: left;
+  width: 50%;
+  height: 19px;
+  padding: 0;
+  line-height: 19px;
+  font-size: 12px;
+  color: white;
+  font-family: Trebuchet, Arial, sans-serif;
+  font-weight: bold;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+#jappix_mini div.tooltip-content .flipswitch-inner:before {
+  content: "";
+  padding-left: 10px;
+  background-color: #14CA78;
+  color: #FFFFFF;
+}
+
+#jappix_mini div.tooltip-content .flipswitch-inner:after {
+  content: "";
+  padding-right: 10px;
+  background-color: #BFBFBF;
+  color: #888888;
+  text-align: right;
+}
+
+#jappix_mini div.tooltip-content .flipswitch-switch {
+  width: 12px;
+  margin: 3.5px;
+  background: #FFFFFF;
+  border: 1px solid #FFFFFF;
+  border-radius: 50px;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  right: 15px;
+  -webkit-transition: all 0.3s ease-in 0s;
+  -moz-transition: all 0.3s ease-in 0s;
+  -ms-transition: all 0.3s ease-in 0s;
+  -o-transition: all 0.3s ease-in 0s;
+  transition: all 0.3s ease-in 0s;
+}
+
+
+/*#jappix_mini div.tooltip-content.right:before {
+  right: 100%;
+  border: solid transparent;
+  content: " ";
+  position: absolute;
+  pointer-events: none;
+  border-right-color: #2C2C2C;
+  border-top-width: 12px;
+  border-bottom-width: 12px;
+  border-right-width: 12px;
+  margin-top: 15%;
+
+}
+
+#jappix_mini div.tooltip-content.left:before {
+  left: 100%;
+  border: solid transparent;
+  content: " ";
+  position: absolute;
+  pointer-events: none;
+  border-left-color: #2C2C2C;
+  border-top-width: 12px;
+  border-bottom-width: 12px;
+  border-left-width: 12px;
+  margin-top: 15%;
+}
+
+#jappix_mini div.tooltip-content-title {
+  height: 14px;
+  font-weight: bold;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  overflow: hidden;
+  color: white;
+}
+
+#jappix_mini hr.tooltip-content-break {
+  width: 100%;
+  height: 1px;
+  background: white;
+  margin: 8px -10px 5px -10px;
+  padding-right: 20px;
+}
+
+#jappix_mini div.tooltip-content div.members-content {
+  max-height: 320px;
+  position: relative;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  overflow: hidden;
+  color: white;
+  overflow: auto;
+}*/
+
+
+/*#jappix_mini div.jm_conversation div.jm_actions {
+  cursor: pointer;
+}*/
+
+#jappix_mini div.jm_actions span.jm_nick {
+  color: white;
+  height: 20px;
+  width: 180px;
+  overflow: hidden;
+  float: right;
+  margin-left: 30px;
+  text-align: center;
+  margin-top: -7px;
+  font-size: 1.3rem;
+}
+
+
+/*#jappix_mini[dir="rtl"] div.jm_actions span.jm_nick {
+  float: right;
+}*/
+
+#jappix_mini div.jm_actions -webkit-appearance: .jm _one action;
+-moz-appearance: .jm _one action;
+appearance: .jm _one action; {
+  margin: 0 -2px 0 5px;
+  height: 15px;
+  width: 15px;
+  display: inline-block;
+}
+
+#jappix_mini div.jm_actions a.jm_one-action:active {
+  background-color: #8c9293;
+}
+
+#jappix_mini div.jm_actions a.jm_minimize {
+  width: 18px;
+  height: 18px;
+  position: absolute;
+  top: 15px;
+  left: 10px;
+  background: url(../images/vnctalk-icons/minimize.svg) no-repeat 50% 50%;
+}
+
+#jappix_mini div.jm_actions .filter-tab {
+  display: inline-block;
+  padding: 5px 15px 15px 15px;
+}
+
+#jappix_mini div.jm_actions .filter-tab.active {
+  border-bottom: 3px solid #FFFFFF;
+}
+
+#jappix_mini div.jm_actions .filter-tab .jm_settings {
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+  background: url(../images/vnctalk-icons/settings.svg) no-repeat 50% 50%;
+}
+
+#jappix_mini div.jm_actions .filter-tab .jm_contacts {
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+  background: url(../images/vnctalk-icons/main-contacts.svg) no-repeat 50% 50%;
+}
+
+#jappix_mini div.jm_actions .filter-tab .jm_favorites {
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+  background: url(../images/vnctalk-icons/main-favorites.svg) no-repeat 50% 50%;
+}
+
+#jappix_mini div.jm_actions .filter-tab.active a.jm_settings {
+  background: url(../images/vnctalk-icons/settings-active.svg) no-repeat 50% 50%;
+}
+
+#jappix_mini div.jm_actions .filter-tab.active a.jm_contacts {
+  background: url(../images/vnctalk-icons/main-contacts-active.svg) no-repeat 50% 50%;
+}
+
+#jappix_mini div.jm_actions .filter-tab.active a.jm_favorites {
+  background: url(../images/vnctalk-icons/main-favorites-acitve.svg) no-repeat 50% 50%;
+}
+
+#jappix_mini .tab-content-settings .pane-settings .jm_dropdown {
+  width: 15px;
+  height: 6px;
+  background: url(../images/vnctalk-icons/arrow-down.svg) no-repeat 50% 50%;
+  margin: 2px;
+  display: inline-block;
+}
+
+#jappix_mini .tab-content-settings .pane-settings .jm_status_text {
+  margin-left: 4px;
+}
+
+#vnc_very_small_logo {
+  width: 25px;
+  height: 25px;
+  margin: -6px 0 0 -6px;
+  float: left;
+}
+
+
+/*#jappix_mini[dir="rtl"] div.jm_actions a.jm_logo {
+  float: right;
+}*/
+
+#jappix_mini div.jm_actions a.jm_logo:hover,
+#jappix_mini div.jm_actions a.jm_logo:focus {
+  background-color: transparent;
+}
+
+#jappix_mini div.jm_actions a.jm_logo:active {
+  background-color: #707677;
+}
+
+#jappix_mini div.jm_actions a.jm_close {
+  background: url(../images/vnctalk-icons/close.svg) no-repeat;
+  background-position: center;
+  width: 15px;
+  height: 15px;
+  position: absolute;
+  top: 50%;
+  margin-top: -7px;
+}
+
+#jappix_mini .jm_actions.jm_header_actions a.jm_minimize_action {
+  background: url(../images/vnctalk-icons/minimize.svg) no-repeat 50% 50%;
+  height: 17px;
+  width: 17px;
+  position: absolute;
+  top: 50%;
+  left: 33px;
+  margin-top: -9px;
+}
+
+
+#jappix_mini div.jm_actions a.jm_minimize_action {
+  background: url(../images/vnctalk-icons/minimize.svg) no-repeat 50% 50%;
+  background-position: center;
+  width: 17px;
+  height: 17px;
+}
+
+#jappix_mini div.jm_actions a.jm_config_action {
+  background: url(../images/vnctalk-icons/settings.svg) no-repeat;
+  background-position: center;
+  right: 35px;
+  background-color: transparent;
+}
+
+#jappix_mini div.jm_actions a.jm_config_action.jm_isvideo {
+  background: url(../images/vnctalk-icons/settings.svg) no-repeat;
+  background-position: center;
+  right: 60px;
+  background-color: transparent;
+}
+
+#jappix_mini div.jm_actions a.jm_config_action.jm_isvideo:hover {
+  background-color: gray;
+}
+
+#jappix_mini div.jm_actions a.jm_join {
+  background-position: 0 -327px;
+  right: 6px;
+}
+
+
+/*#jappix_mini[dir="rtl"] div.jm_actions a.jm_join {
+  right: auto;
+  left: 18px;
+}*/
+
+#jappix_mini a.jm_status {
+
+}
+
+/*#jappix_mini[dir="rtl"] div.jm_actions a.jm_status {
+  right: auto;
+  left: 0;
+}*/
+
+
+/*#jappix_mini div.jm_actions a.active,
+#jappix_mini div.jm_actions a.active:hover,
+#jappix_mini div.jm_actions a.active:focus,
+#jappix_mini div.jm_actions a.active:active {
+  background-color: transparent;
+  border: 1px solid #3a3a3a;
+  border-width: 1px 1px 0 1px;
+  height: 15px;
+  width: 14px;
+  top: 3px;
+  z-index: 10;
+}*/
+
+#jappix_mini div.jm_status_picker,
+#jappix_mini div.jm_chan_suggest {
+  background-color: #364052;
+  border: 1px solid #3a3a3a;
+  color: white;
+  list-style: none outside none;
+  width: 130px;
+  position: absolute;
+  border-radius: 10px;
+  padding: 3px 0;
+  z-index: 9;
+}
+
+#jappix_mini div.jm_status_picker {
+  right: 22px;
+}
+
+#jappix_mini div.jm_chan_suggest {
+  right: 4px;
+}
+
+
+/*#jappix_mini[dir="rtl"] div.jm_status_picker,
+#jappix_mini[dir="rtl"] div.jm_chan_suggest {
+  margin-right: 2px;
+}*/
+
+#jappix_mini div.jm_chan_suggest {
+  max-height: 108px;
+  width: 95%;
+  padding: inherit;
+  /*padding-right: 45px;*/
+  min-width: 187px;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  overflow-x: hidden;
+}
+
+#jappix_mini div.jm_status_picker a,
+#jappix_mini div.jm_chan_suggest a {
+  color: #FFFFFF;
+  padding: 4px;
+  display: block;
+  padding-right: 30px;
+  padding-left: 5px;
+  white-space: nowrap;
+}
+
+#jappix_mini div.jm_status_picker a:hover,
+#jappix_mini div.jm_status_picker a:focus,
+#jappix_mini div.jm_chan_suggest a:hover,
+#jappix_mini div.jm_chan_suggest a:focus {
+  background-color: white;
+  color: #3a3a3a;
+  border-width: 1px 0;
+  border-style: solid;
+  border-color: #3a3a3a;
+  margin: -1px 0;
+  display: block;
+}
+
+#jappix_mini div.jm_chan_suggest div.jm_space {
+  height: 6px;
+}
+
+#jappix_mini div.jm_status_picker a span.jm_presence {
+  height: 7px;
+  width: 7px;
+  margin-right: 8px;
+  position: initial;
+}
+
+#jappix_mini div.jm_chan_suggest a span.jm_chan_icon {
+  height: 16px;
+  width: 16px;
+  margin: 0 8px 0 4px;
+  float: left;
+}
+
+
+/*#jappix_mini[dir="rtl"] div.jm_chan_suggest a span.jm_chan_icon {
+  margin-right: 4px;
+  margin-left: 8px;
+  float: right;
+}*/
+
+#jappix_mini div.jm_chan_suggest a.jm_suggest_groupchat span.jm_chan_icon {
+  background-position: 0 -480px;
+}
+
+#jappix_mini div.jm_chan_suggest a.jm_suggest_groupchat:hover span.jm_chan_icon,
+#jappix_mini div.jm_chan_suggest a.jm_suggest_groupchat:focus span.jm_chan_icon {
+  background-position: 0 -496px;
+}
+
+#jappix_mini div.jm_chan_suggest a.jm_suggest_chat span.jm_chan_icon {
+  background-position: 0 -512px;
+}
+
+#jappix_mini div.jm_chan_suggest a.jm_suggest_chat:hover span.jm_chan_icon,
+#jappix_mini div.jm_chan_suggest a.jm_suggest_chat:focus span.jm_chan_icon {
+  background-position: 0 -528px;
+}
+
+#jappix_mini div.jm_chan_suggest a span.jm_chan_name,
+#jappix_mini div.jm_status_picker a span.jm_show_text {
+  color: white;
+}
+
+
+/*#jappix_mini[dir="rtl"] div.jm_chan_suggest a span.jm_chan_name,
+#jappix_mini[dir="rtl"] div.jm_status_picker a span.jm_show_text {
+  float: right;
+}*/
+
+#jappix_mini div.jm_chan_suggest a span.jm_chan_name {
+  height: 15px;
+  width: 80%;
+  overflow: inherit;
+  white-space: nowrap;
+}
+
+#jappix_mini div.jm_chan_suggest a:hover span.jm_chan_name,
+#jappix_mini div.jm_chan_suggest a:focus span.jm_chan_name,
+#jappix_mini div.jm_status_picker a:hover span.jm_show_text,
+#jappix_mini div.jm_status_picker a:focus span.jm_show_text {
+  color: #3a3a3a;
+}
+
+
+/*#jappix_mini div.jm_pix_stream {
+  line-height: 0;
+  max-height: 50px;
+  overflow: hidden;
+  position: absolute;
+  top: 23px;
+  left: 0;
+  right: 0;
+}
+
+#jappix_mini div.jm_pix_stream iframe {
+  width: 320px;
+  height: 50px;
+  overflow: hidden;
+}*/
+
+#jappix_mini div.jm_received-messages {
+  background-color: white;
+  padding: 0px 0 4px;
+  overflow: auto;
+}
+
+#jappix_mini div.jm_received-messages.normal_chat {
+  height: 232px;
+}
+
+#jappix_mini div.jm_received-messages.group_chat {
+  height: 214px;
+}
+
+#jappix_mini div.jm_received-messages p {
+  margin: 3px 0;
+  margin-left: 32px;
+  word-wrap: break-word;
+  word-break: break-word;
+}
+
+#jappix_mini div.jm_received-messages p,
+#jappix_mini div.jm_received-messages a {
+  color: black !important;
+}
+
+#jappix_mini div.jm_received-messages div.jm_group {
+    margin: 2px 6px 9px 6px;
+    padding: 2px;
+  /*border-bottom: 1px solid #eaeaea;*/
+}
+
+#jappix_mini div.jm_received-messages div.jm_system-message p,
+#jappix_mini div.jm_received-messages div.jm_system-message b,
+#jappix_mini div.jm_received-messages div.jm_system-message a {
+  color: #053805 !important;
+  font-style: italic !important;
+}
+
+#jappix_mini div.jm_received-messages p a {
+  text-decoration: underline;
+}
+
+#jappix_mini div.jm_received-messages b.jm_name {
+  margin-bottom: 3px;
+  display: block;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+#jappix_mini div.jm_received-messages b.jm_name.jm_me {
+  color: #123a5c;
+}
+
+#jappix_mini div.jm_received-messages b.jm_name.jm_him {
+  color: #801e1e;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+#jappix_mini div.jm_received-messages span.jm_date {
+  font-size: 0.8rem;
+  float: right;
+  color: #a0abb1;
+}
+
+#jappix_mini div.jm_received-messages img.user_avatar {
+  width: 25px;
+  height: 25px;
+  border-radius: 50%;
+  border-width: 1px;
+  border-color: #d8d8d8;
+  border-style: solid;
+  float: left;
+  margin-right: 5px;
+}
+
+/*#jappix_mini[dir="rtl"] div.jm_received-messages span.jm_date {
+  float: left;
+}*/
+
+#jappix_mini div.jm_received-messages div.jm_group:hover span.jm_date {
+  display: block;
+}
+
+#jappix_mini div.jm_received-messages div.jm_chatstate_typing {
+  background-image: url(../images/wait/wait-typing.gif);
+  background-repeat: no-repeat;
+  background-position: 0 5px;
+  color: #a6a6a6;
+  font-size: 10px;
+  letter-spacing: 1px;
+  margin: 0 0 5px 8px;
+  padding-left: 24px;
+  visibility: hidden;
+}
+
+#jappix_mini div.jm_received-messages div.jm_chat_muc_notify {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  color: #c3a22c;
+  font-size: 0.9rem;
+  font-weight: bold;
+  letter-spacing: 1px;
+  margin: 10px 10px -5px 10px;
+  border: none;
+}
+
+#jappix_mini div.jm_received-messages div.jm_chat_break_date {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  color: #a0abb1;
+  font-size: 0.8rem;
+  font-weight: bold;
+  letter-spacing: 1px;
+  margin: 10px 10px 10px 10px;
+  border: none;
+}
+
+#jappix_mini textarea.jm_send-messages {
+  width: 260px;
+  max-height: 73px;
+  position: absolute;
+  bottom: 28px;
+  line-height: 18px;
+  padding-left: 5px;
+  box-sizing: border-box;
+  border-top: 1px solid #999999;
+  overflow-y : auto;
+  font-size : 1.2rem;
+  resize : none;
+}
+
+#jappix_mini textarea.jm_send-messages:focus {
+  /*border: 1px solid #999999;*/
+}
+
+#jappix_mini div.jm_disabled div.jm_chat-content,
+#jappix_mini div.jm_disabled textarea.jm_send-messages,
+#jappix_mini div.jm_disabled a.jm_pane,
+#jappix_mini a.jm_switch.jm_nonav {
+  background: #E0E5EB !important;
+}
+
+#jappix_mini div.jm_disabled textarea.jm_send-messages {
+  color: #9d9d9d;
+}
+
+#jappix_mini div.jm_roster {
+  border: 1px solid #777777;
+  box-shadow: 0px 0px 3px #888888;
+  position: absolute;
+  right: 0;
+  bottom: 28px;
+  display: none;
+  width: 300px;
+  height: 520px;
+  background-color: #FFFFFF;
+}
+
+#jappix_mini div.quick-menu{
+  display: block;
+  margin-top: 47px;
+  height: 195px;
+  width: 165px;
+  right: 6px;
+  position: absolute;
+  border: 1px solid #E0E5EB;
+  background-color: #ffffff;
+  z-index: 5;
+  border-radius: 3%;
+}
+#jappix_mini div.quick-menu .chat_submit,#jappix_mini div.quick-menu .video_submit{
+  margin: 16px 10px;
+  /*background-color: white;*/
+}
+#jappix_mini div.quick-menu .chat_submit button,#jappix_mini div.quick-menu .video_submit button{
+  background-color: #ffffff;
+  font-size: 1.2rem;
+  cursor: pointer;
+}
+#jappix_mini div.quick-menu .chat_submit .jm_chat_icon{
+  vertical-align: middle;
+  margin-right: 7px;
+  display: inline-block;
+  background: url(../images/vnctalk-icons/chat.svg) no-repeat;
+  background-position: center;
+  background-color: #0087c3;
+  height: 20px;
+  width: 20px;
+  background-size: 24px 11px;
+  border-radius: 2px;
+}
+#jappix_mini div.quick-menu .video_submit .jm_video_icon{
+  vertical-align: middle;
+  margin-right: 7px;
+  display: inline-block;
+  background: url(../images/vnctalk-icons/videoconference.svg) no-repeat;
+  background-position: center;
+  background-color: #0087c3;
+  height: 20px;
+  width: 20px;
+  background-size: 24px 11px;
+  border-radius: 2px;
+}
+#jappix_mini div.quick-menu .jm_add_contacts, #jappix_mini div.quick-menu .jm_edit_list, #jappix_mini div.quick-menu .jm_delete_list{
+  margin: 16px 0;
+}
+#jappix_mini div.quick-menu .jm_add_contacts button {
+  font-size: 1.1rem;
+  background-color: #ffffff;
+  border-radius: 2px;
+  cursor: pointer;
+}
+#jappix_mini div.quick-menu .jm_add_contacts .jm_plus_icon {
+  background: url(../images/vnctalk-icons/plus_black.svg) no-repeat;
+  width: 10px;
+  height: 12px;
+  vertical-align: text-bottom;
+  margin-left: 5px;
+  display: inline-block;
+  margin-right: 5px;
+}
+#jappix_mini div.quick-menu .jm_edit_list button {
+  background-color: #ffffff;
+  font-size: 1.1rem;
+  border-radius: 2px;
+  margin-left: 8px;
+  cursor: pointer;
+}
+
+#jappix_mini div.quick-menu .jm_delete_list button {
+  background-color: #ffffff;
+  font-size: 1.1rem;
+  border-radius: 2px;
+  margin-left: 8px;
+  color: red;
+  cursor: pointer;
+}
+
+
+#jappix_mini div.jm_search {
+  border: 10px solid #4da2d1;
+  /*background-color: #4da2d1;*/
+}
+
+#jappix_mini div.jm_option_search {
+  margin-top: 10px;
+  margin-left: 10px;
+}
+
+#jappix_mini div.jm_option_search label {
+  position: absolute;
+  white-space: nowrap;
+  margin-left: 5px;
+}
+
+#jappix_mini div.jm_search input.jm_searchbox {
+  width: 100%;
+  background: url(../images/vnctalk-icons/search.svg) no-repeat;
+  background-size: 17px 17px;
+  padding: 4px 0 4px 26px;
+  border-radius: 3px;
+  background-position: 2% 45%;
+  border: none;
+  height: 40px;
+  box-sizing: border-box;
+}
+
+#jappix_mini input.jm_searchbox:focus {
+  border-color: #999999;
+}
+
+#jappix_mini input.jm_searchbox.placeholder {
+  color: #ababab;
+}
+
+#jappix_mini input.jm_searchbox::-webkit-input-placeholder {
+  color: #ababab;
+}
+
+#jappix_mini input.jm_searchbox:-moz-placeholder {
+  color: #ababab;
+}
+
+#jappix_mini div.jm_roster div.jm_buddies {
+  width: 100%;
+  height: 370px;
+  /*min-height: 100px;*/
+  overflow: auto;
+  position: relative;
+}
+#jappix_mini div.jm_roster div.jm_buddies_normal {
+  width: 100%;
+  max-height: 396px;
+  min-height: 100px;
+  overflow: auto;
+  position: relative;
+}
+
+#jappix_mini div.jm_roster div.jm_buddies div.jm_no_search {
+  margin: 40px;
+  font-size: 14px;
+}
+
+#jappix_mini div.jm_roster div.jm_grouped {
+  margin: 2px 0;
+}
+
+#jappix_mini div.jm_roster div.jm_grouped .jm_grouped_header {
+  position: relative;
+  border-bottom: 1px solid #d8d8d8;
+}
+
+#jappix_mini div.jm_roster div.jm_grouped a.jm_name {
+  margin-bottom: 2px;
+  padding: 4px 8px 0;
+  font-weight: bold;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  display: block;
+  white-space: nowrap;
+}
+
+#jappix_mini div.jm_roster div.jm_grouped .jm_grouped_header .jm_name {
+  background: url(../images/vnctalk-icons/arrow-big-right.svg) no-repeat;
+  background-size: 13px 13px;
+  padding: 11px 0 11px 30px;
+  background-position: 12px 50%;
+  display: inline-block;
+  cursor: pointer;
+  color: #007bc3;
+  margin-right: 22px;
+  font-weight: bold;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  display: block;
+  white-space: nowrap;
+  max-width: 250px;
+}
+
+#jappix_mini div.jm_roster div.jm_grouped .jm_grouped_header.active .jm_name {
+  background: url(../images/vnctalk-icons/arrow-big-down.svg) no-repeat;
+  background-size: 13px 13px;
+  background-position: 12px 50%;
+}
+
+#jappix_mini div.jm_roster div.jm_grouped .quick-menu-btn {
+  position: absolute;
+  top: 50%;
+  margin-top: -8px;
+  right: 10px;
+  background: url(../images/vnctalk-icons/kebab-menue.svg) no-repeat 50% 50%;
+  width: 16px;
+  height: 16px;
+}
+
+#jappix_mini div.jm_roster div.jm_profile_header {
+  background-color: #0087c3;
+  color: white;
+  padding: 15px 6px;
+  font-weight: bold;
+  border-top: 1px solid #eaeaea;
+  text-align: center;
+}
+#jappix_mini div.jm_roster div.jm_profile_header .jm_back {
+  display: inline-block;
+  width: 17px;
+  height: 17px;
+  position: absolute;
+  top: 70px;
+  left: 14px;
+  cursor: pointer;
+  background: url(../images/vnctalk-icons/arrow-big-left.svg) no-repeat;
+}
+#jappix_mini div.jm_roster div.jm_profile_action {
+  border-bottom: 1px solid #eaeaea;
+}
+#jappix_mini div.jm_roster div.jm_avatar .jm_presence {
+  position: absolute;
+  display: inline-block;
+  left: 180px;
+  top: 195px;
+  height: 10px;
+  width: 10px;
+  margin-top: 4px;
+  border-radius: 50%;
+  border: 1px solid #9ca09c;
+}
+#jappix_mini div.jm_roster div.jm_avatar .jm_user_img {
+  margin: 15px 100px 20px;
+}
+#jappix_mini div.jm_roster div.jm_avatar .atv_user {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  border-width: 1px;
+  border-color: #d8d8d8;
+  border-style: solid;
+}
+#jappix_mini div.jm_roster .jm_profile_action .jm_action {
+  margin-bottom: 15px;
+}
+#jappix_mini div.jm_roster .jm_profile_action .jm_action .chat_submit,
+#jappix_mini div.jm_roster .jm_profile_action .jm_action .video_submit {
+  border-style: solid;
+  background-color: white;
+  border-color: #dadada;
+  border-width: thin;
+  margin: 0px 15px 7px;
+  border-top-color: white;
+}
+#jappix_mini div.jm_roster .jm_profile_action .jm_action .video_submit {
+  margin: 5px 15px 0px;
+}
+
+#jappix_mini div.jm_roster .jm_profile_action .jm_action .jm_chat_submit,
+#jappix_mini div.jm_roster .jm_profile_action .jm_action .jm_video_submit {
+  color: #0087c3;
+  margin: 5px 14px 5px;
+  background-color: white;
+  font-size: 1.4rem;
+}
+
+#jappix_mini div.jm_roster .jm_profile_action .jm_action .jm_chat_icon {
+  vertical-align: middle;
+  margin-right: 7px;
+  display: inline-block;
+  background: url(../images/vnctalk-icons/chat.svg) no-repeat;
+  background-position: center;
+  background-color: #0087c3;
+  height: 32px;
+  width: 32px;
+  background-size: 24px 11px;
+  border-radius: 2px;
+}
+#jappix_mini div.jm_roster .jm_profile_action .jm_action .jm_video_icon{
+  vertical-align: middle;
+  display: inline-block;
+  background: url(../images/vnctalk-icons/videoconference.svg) no-repeat;
+  background-position: center;
+  background-color: #0087c3;
+  height: 32px;
+  width: 32px;
+  background-size: 24px 11px;
+  border-radius: 2px;
+  margin-right: 7px;
+}
+#jappix_mini div.jm_roster .jm_options_favorite {
+  margin: 13px 15px 0px;
+  color: #949494;
+}
+#jappix_mini div.jm_roster .jm_options_favorite .jm_tilte_options {
+  margin-bottom: 5px;
+  color: black;
+  font-size: 1.3rem;
+}
+#jappix_mini div.jm_roster .jm_options_favorite .jm_list_group {
+  overflow-y: auto;
+  height: 100px;
+}
+#jappix_mini div.jm_roster .jm_options_favorite .jm_list_group .jm_groupname {
+  margin: 10px 0 10px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+#jappix_mini div.jm_roster .jm_options_favorite .jm_list_group input {
+  width: 15px;
+  height: 15px;
+}
+#jappix_mini div.jm_roster .jm_options_favorite .jm_list_group label {
+  font-size: 1.3rem;
+  margin-left: 15px;
+  position: inherit;
+}
+#jappix_mini div.jm_roster .jm_create_groupuser {
+  /*padding: 6px 14px 6px 6px;*/
+  font-size: 1.2rem;
+  background-color: #ffffff;
+  border-radius: 2px;
+  margin-left: 1px;
+  color: #007bc1;
+  cursor: pointer;
+}
+#jappix_mini div.jm_roster .jm_create_groupuser .plus_icon {
+  background: url(../images/vnctalk-icons/plus.svg) no-repeat;
+  width: 14px;
+  height: 14px;
+  vertical-align: text-bottom;
+  margin-left: 8px;
+  display: inline-block;
+  margin-right: 10px;
+
+}
+
+#jappix_mini div.jm_roster div.jm_profile_header {
+  background-color: #0087c3;
+  color: white;
+  padding: 15px 6px;
+  font-weight: bold;
+  border-top: 1px solid #eaeaea;
+  text-align: center;
+}
+#jappix_mini div.jm_roster div.jm_create_header,
+#jappix_mini div.jm_roster div.jm_add_list_header,
+#jappix_mini div.jm_roster div.jm_edit_list_header {
+  background-color: #0087c3;
+  color: white;
+  padding: 15px 6px;
+  font-weight: bold;
+  border-top: 1px solid #eaeaea;
+  text-align: center;
+  font-size: 1.4rem;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+#jappix_mini div.jm_roster div.jm_name_group {
+    border-bottom: 1px solid #eaeaea;
+    height: 38px;
+    overflow: hidden;
+    overflow-x: auto;
+    white-space: nowrap;
+    background-color: white;
+}
+#jappix_mini div.jm_roster div.jm_name_roster {
+  border-bottom: 1px solid #eaeaea;
+  height: 52px;
+  overflow: hidden;
+  overflow-x: auto;
+  max-width: 294px;
+  white-space: nowrap;
+  background-color: white;
+}
+#jappix_mini div.jm_roster div.jm_name_group #name_group_user{
+  font-size: 1.2rem;
+  height: 100%;
+  color: #0087c3;
+  margin-left: 6px;
+  width: 87%;
+}
+#jappix_mini div.jm_roster div.jm_name_roster #name_contact_list, #jappix_mini div.jm_roster div.jm_name_roster #name_groupuser{
+  font-size: 1.2rem;
+  height: 100%;
+  color: #0087c3;
+  margin-left: 6px;
+  width: 96%;
+}
+#jappix_mini div.jm_roster div.jm_name_group .jm_close.hide {
+  display: none;
+  width: 18px;
+  height: 18px;
+  top: 115px;
+  background: url(../images/vnctalk-icons/close.svg) no-repeat;
+  background-position: center;
+  background-color: #dadada;
+  background-size: 14px 11px;
+  border-radius: 50%;
+  position: absolute;
+  cursor: pointer;
+}
+#jappix_mini div.jm_roster div.jm_name_group .jm_close.show {
+  display: inline-block;
+  width: 18px;
+  height: 18px;
+  top: 115px;
+  background: url(../images/vnctalk-icons/close.svg) no-repeat;
+  background-position: center;
+  background-color: #dadada;
+  background-size: 14px 11px;
+  border-radius: 50%;
+  position: absolute;
+  cursor: pointer;
+}
+#jappix_mini div.jm_roster div.jm_suggest_roster {
+    min-height: 100px;
+    max-height: 270px;
+    border-bottom: 1px solid #eaeaea;
+}
+
+#jappix_mini div.jm_roster .jm_button input.jm_cancle_create, #jappix_mini div.jm_roster .jm_button input.jm_cancle_add, #jappix_mini div.jm_roster .jm_button input.jm_cancle_edit {
+  margin: 15px 10px 20px 29px;
+  height: 35px;
+  width: 110px;
+  font-size: 1.4rem;
+  color: white;
+  background-color: #777070;
+  font-weight: bold;
+}
+#jappix_mini div.jm_roster .jm_button [type="text"]:disabled {
+  opacity: 0.3;
+}
+#jappix_mini div.jm_roster .jm_button input.jm_submit_create, #jappix_mini div.jm_roster .jm_button input.jm_submit_add, #jappix_mini div.jm_roster .jm_button input.jm_submit_edit {
+  height: 35px;
+  width: 110px;
+  font-size: 1.4rem;
+  font-weight: bold;
+  background-color: #0087c3;
+  color: white;
+}
+#jappix_mini a.jm_friend, #jappix_popup a.jm_friend {
+  /*border-color: white;
+  border-style: solid;
+  border-width: 1px 0;*/
+  outline-style: none;
+  padding-left: 10px;
+  padding-top: 5px;
+  display: block;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  line-height: 20px;
+  cursor: auto;
+  position: relative;
+  border-bottom: 1px solid #d8d8d8;
+}
+
+#jappix_mini a.jm_friend.jm_offline, #jappix_popup a.jm_friend.jm_offline {
+  display: none;
+}
+
+#jappix_mini a.jm_friend.jm_hover, #jappix_popup a.jm_friend.jm_hover {
+  background-color: #E0E5EB;
+  border-color: #494949;
+  color: #000000;
+}
+
+#jappix_mini a.jm_friend.jm_hover span.jm_presence, #jappix_popup a.jm_friend.jm_hover span.jm_presence {
+  background-position: -4px -115px;
+}
+
+#jappix_mini .jm_friend .jm_user-wrapper, #jappix_popup .jm_friend .jm_user-wrapper {
+  position: relative;
+  cursor: pointer;
+  display: inline-block;
+} {
+  position: relative;
+  cursor: pointer;
+  display: inline-block;
+}
+
+#jappix_mini span.jm_animate {
+  background-position: 0 0;
+  width: 80px;
+  height: 74px;
+  position: absolute;
+  top: -76px;
+  left: -52px;
+  z-index: 1;
+  display: block;
+}
+
+#jappix_mini span.jm_counter {
+  display: inline-block;
+  margin-left: 4px;
+  font-size: 1.2rem;
+  color: #0e0e0e;
+  font-weight: 100;
+}
+
+#jappix_mini span.jm_user {
+  display: inline-block;
+  width: 18px;
+  height: 18px;
+  background: url(../images/vnctalk-icons/user.svg) no-repeat;
+}
+
+#jappix_mini span.jm_counter.jm_error {
+  background-position: 0 -305px;
+}
+
+#jappix_mini .jm_status span.jm_presence  {
+  display: inline-block;
+  height: 10px;
+  width: 10px;
+  border-radius: 50%;
+  border: 1px solid #FFFFFF;
+}
+
+#jappix_mini .jm_status_picker span.jm_presence  {
+  display: inline-block;
+  height: 10px;
+  width: 10px;
+  border-radius: 50%;
+  border: 1px solid #FFFFFF;
+}
+
+#jappix_mini .jm_friend span.jm_presence, #jappix_popup .jm_friend span.jm_presence {
+  position: absolute;
+  display: inline-block;
+  bottom: 5px;
+  left: 18px;
+  height: 10px;
+  width: 10px;
+  margin-top: 4px;
+  border-radius: 50%;
+  border: 1px solid #9ca09c;
+}
+
+#jappix_mini span.jm_user_img {
+  display: inline-block;
+}
+
+#jappix_mini span.jm_user_img .jm_image_wrapper, #jappix_popup span.jm_user_img .jm_image_wrapper {
+  width: 25px;
+  height: 25px;
+  border-radius: 50%;
+  border-width: 1px;
+  border-color: #d8d8d8;
+  border-style: solid;
+}
+
+#jappix_mini span.jm_user-wrapper .jm_name_user_chat, #jappix_popup span.jm_user-wrapper .jm_name_user_chat {
+  position: absolute;
+  top: 50%;
+  margin-top: -10px;
+  margin-left: 13px;
+  max-width: 150px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+
+/*#jappix_mini[dir="rtl"] span.jm_presence {
+  margin-right: 0;
+  margin-left: 4px;
+  float: right;
+}*/
+
+#jappix_mini span.jm_name {
+  color: #272727;
+  height: 20px;
+  max-width: 120px;
+  overflow: hidden;
+  float: left;
+}
+
+
+/*#jappix_mini[dir="rtl"] span.jm_name {
+  float: right;
+}*/
+
+#jappix_mini .jm_available,
+#jappix_mini .jm_chat {
+  background-color: #7ED321;
+}
+
+#jappix_mini .jm_away {
+  background-color: #F5A623;
+}
+
+#jappix_mini .jm_xa,
+#jappix_mini .jm_dnd {
+  background-color: #D0021B;
+}
+
+#jappix_mini .jm_unavailable {
+  background-color: #585858;
+}
+
+#jappix_mini .jm_smiley {
+  border: 0 none;
+  height: 16px;
+  width: 16px;
+  vertical-align: bottom;
+}
+
+#jappix_mini .jm_smiley-wink {
+  background-position: 0 -148px;
+}
+
+#jappix_mini .jm_smiley-waii {
+  background-position: 0 -164px;
+}
+
+#jappix_mini .jm_smiley-unhappy {
+  background-position: 0 -180px;
+}
+
+#jappix_mini .jm_smiley-tongue {
+  background-position: 0 -196px;
+}
+
+#jappix_mini .jm_smiley-surprised {
+  background-position: 0 -212px;
+}
+
+#jappix_mini .jm_smiley-smile {
+  background-position: 0 -228px;
+}
+
+#jappix_mini .jm_smiley-happy {
+  background-position: 0 -244px;
+}
+
+#jappix_mini .jm_smiley-grin {
+  background-position: 0 -260px;
+}
+
+#jappix_popup {
+  background: url(../images/others/blank.gif) repeat;
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  z-index: 555;
+}
+
+#jappix_popup div.jm_conference {
+  background-color: #FAFAFA;
+  border: 0px none;
+  width: 346px;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  margin-left: -173px;
+  padding: 0px;
+  border-top-right-radius: 0px;
+  border-top-left-radius: 0px;
+  -moz-border-radius-topright: 0px;
+  -moz-border-radius-topleft: 0px;
+  -webkit-border-top-right-radius: 0px;
+  -webkit-border-top-left-radius: 0px;
+  border-top-right-radius: 4px;
+  border-top-left-radius: 4px;
+  box-shadow: 0 0 35px #232323;
+  -moz-box-shadow: 0 0 35px #232323;
+  -webkit-box-shadow: 0 0 35px #232323;
+  box-shadow: 0 0 35px #232323;
+}
+
+#jappix_popup div.jm_conference form {
+  background-color: #F4F4F4;
+}
+
+#jappix_popup .jm_text_content {
+  width: 50%;
+  display: inline-block;
+  font-size: 1.5em;
+  padding: 14px;
+  box-sizing: border-box;
+}
+
+#jappix_popup .jm_input_content {
+  width: 49%;
+  display: inline-block;
+}
+
+#jappix_popup .join_conversation .jm_input_content {
+  width: 100%;
+}
+
+#jappix_popup .join_conversation .jm_input_content input.jm_text {
+  padding: 8px 20px 8px 20px;
+  width: 100%;
+  height: 3rem;
+  font-size: 1.4em;
+  box-sizing: border-box;
+}
+
+#jappix_popup .join_conversation .jm_input_content .jm_wrap_content {
+  padding: 10px 5px;
+}
+
+#jappix_popup .join_conversation .jm_input_content .jm_wrap_content p {
+  display: inline-block;
+  font-size: 1.1rem;
+  margin-left: 5px;
+}
+
+#jappix_popup .join_conversation .jm_input_content .jm_select {
+  padding: 10px;
+  margin-left: 20px;
+  font-size: 1.1rem;
+  max-width: 360px;
+}
+
+#jappix_popup .join_conversation .jm_input_content .jm_select option{
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+#jappix_popup .jm_input_content input.jm_text {
+  padding: 5px 0;
+  width: 100%;
+  font-size: 1.5em;
+}
+
+#jappix_popup div.jm_conference div.jm_header {
+  /*background-color: #0087C3;
+  border-bottom: 0px none;
+  height: 14px;
+  padding: 9px 6px;
+  font-weight: bold;
+  overflow: hidden;*/
+  text-align: center;
+  background-color: #007CC2;
+  padding: 12px;
+}
+
+#jappix_popup div.jm_header a.jm_close {
+  /*width: 18px;
+  height: 15px;
+  float: left;
+    background: url(../images/vnctalk-icons/close.svg) no-repeat 50% 50%;*/
+  display: inline-block;
+  width: 14px;
+  height: 14px;
+  position: absolute;
+  top: 15px;
+  left: 14px;
+  cursor: pointer;
+  background: url(../images/vnctalk-icons/close.svg) no-repeat;
+}
+
+#jappix_popup div.jm_header a.jm_title {
+  /*color: white;
+  height: 16px;
+  width: 225px;
+  overflow: hidden;
+  float: right;
+  font-size: 16px*/
+  font-size: 20px;
+  color: #FFFFFF;
+  cursor: pointer;
+}
+
+#jappix_popup div.jm_conference div.jm_invitee {
+  border-top: 1px solid #999999;
+  padding: 2px 0;
+}
+
+#jappix_popup div.jm_conference .jm_invitee .jm_invite_people {
+  border-right: 1px solid #D1D1D1;
+  border-bottom: 1px solid #D1D1D1;
+  overflow: hidden;
+  overflow-x: auto;
+  max-width: 350px;
+  height: 54px;
+  white-space: nowrap;
+  background-color: white;
+}
+
+#jappix_popup div.jm_conference .jm_invitee .jm_invite_people input.jm_text {
+  /*background-color: white;*/
+  background-position: 9px -381px;
+  color: black;
+  font-size: 1.5em;
+  /*padding: 2px 4px 2px 28px;*/
+  width: 100%;
+  border-bottom-style: ridge;
+  border-bottom-width: thin;
+  padding: 5px 0px 5px 0px;
+}
+
+#jappix_popup div.jm_invitee div.jm_content {
+  width: 100%;
+  max-height: 300px;
+  min-height: 100px;
+  padding: 5px 0;
+  border-bottom-style: ridge;
+  border-bottom-width: thin;
+  overflow: auto;
+}
+
+#jappix_popup .jm_invitee_people {
+  padding: 5px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+#jappix_mini div.suggest_invite_list_items {
+  position: absolute;
+  overflow: hidden;
+  overflow-x: auto;
+  max-width: 261px;
+  height: 52px;
+}
+
+#jappix_mini div.suggest_invite_member span.invitee_items, #jappix_popup div.jm_invite_people span.invitee_items, #jappix_mini div.jm_name_roster span.invitee_items {
+  border-radius: 5%;
+  border-width: 1px;
+  border-color: #d8d8d8;
+  border-style: solid;
+  padding-right: 5px;
+  padding-left: 1px;
+  background-color: #d8d8d8;
+  display: inline-block;
+  margin: 5px;
+}
+
+#jappix_mini div.invitee_remove, #jappix_popup div.jm_invite_people div.invitee_remove{
+  height: 18px;
+  width: 10px;
+  cursor: pointer;
+  background: url(../images/vnctalk-icons/close.svg) no-repeat;
+  background-position: center;
+  display: inline-block;
+  margin-left: 5px;
+}
+
+#jappix_mini div.invitee_name, #jappix_popup div.invitee_name {
+  display: inline-block;
+  max-width: 100px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  padding-top: 4px;
+}
+
+#jappix_mini div.suggest_invite_input div.invitee_name img.user_avatar, #jappix_popup div.jm_invite_people div.invitee_name img.user_avatar, #jappix_mini div.jm_name_roster img.user_avatar {
+  width: 15px;
+  height: 15px;
+  border-radius: 50%;
+  border-width: 1px;
+  border-color: #d8d8d8;
+  border-style: solid;
+  float: left;
+  margin-right: 2px;
+}
+
+#jappix_popup div.jm_conference .jm_footer {
+  padding: 5px 2px 5px 2px;
+  text-align: right;
+  border-top: 2px solid #D1D1D1;
+}
+
+#jappix_popup div.jm_conference .jm_footer input[type="submit"] {
+  background-color: #0087C3;
+  /*border: 1px solid #0A3144;*/
+  font-size: 1.1rem;
+  padding: 3px 2px;
+  color: #FFFFFF;
+  width: 200px;
+  height: 30px;
+  text-align: right;
+  background-image: url(../images/vnctalk-icons/videoconference.svg);
+  background-size: 22px;
+  background-position: 7% 50%;
+  background-repeat: no-repeat;
+  font-weight: bold;
+  margin: 2px 10px 2px;
+}
+
+#jappix_popup div.jm_conference .jm_footer input[type="reset"] {
+  background-color: beige;
+  /*border: 1px solid #0A3144;*/
+  font-size: 1.1rem;
+  padding: 3px 2px;
+  width: 100px;
+  height: 30px;
+  text-align: center;
+  color: #0087C3;
+  font-weight: bold;
+  margin: 2px 0px 2px 0px;
+}
+
+#jappix_popup span.jm_presence {
+  display: inline-block;
+  height: 10px;
+  width: 10px;
+  vertical-align: bottom;
+  border-radius: 50%;
+  border: 1px solid #FFFFFF;
+  left: 7px;
+}
+
+#jappix_popup .jm_available,
+#jappix_popup .jm_chat {
+  background-color: #7ED321;
+}
+
+#jappix_popup .jm_away {
+  background-color: #F5A623;
+}
+
+#jappix_popup .jm_xa,
+#jappix_popup .jm_dnd {
+  background-color: #D0021B;
+}
+
+#jappix_popup .jm_unavailable {
+  background-color: #585858;
+}
+
+#jappix_popup div.jm_prompt {
+  background-color: #F4F4F4;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  margin-left: -400px;
+  border-top-right-radius: 0px;
+  border-top-left-radius: 0px;
+  -moz-border-radius-topright: 0px;
+  -moz-border-radius-topleft: 0px;
+  -webkit-border-top-right-radius: 0px;
+  -webkit-border-top-left-radius: 0px;
+  border-top-right-radius: 4px;
+  border-top-left-radius: 4px;
+  box-shadow: 0 0 8px #232323;
+  -moz-box-shadow: 0 0 8px #232323;
+  -webkit-box-shadow: 0 0 8px #232323;
+  box-shadow: 0 0 8px #232323;
+}
+
+#jappix_popup div.jm_prompt form {
+  width: 700px;
+}
+
+#jappix_popup div.join_conversation form {
+  width: 400px;
+}
+
+#jappix_popup div.join_conversation {
+  margin-left: -200px;
+}
+
+#jappix_popup div.jm_prompt .jm_prompt_header {
+  text-align: center;
+  background-color: #007CC2;
+  padding: 12px;
+  min-height: 20px;
+}
+
+#jappix_popup div.jm_prompt .jm_prompt_header .jm_close {
+  display: inline-block;
+  width: 14px;
+  height: 14px;
+  position: absolute;
+  top: 15px;
+  left: 14px;
+  cursor: pointer;
+  background: url(../images/vnctalk-icons/close.svg) no-repeat;
+}
+
+#jappix_popup #invite_button{
+  cursor:  pointer;
+}
+
+#jappix_popup div.jm_prompt .jm_prompt_header .jm_title {
+  font-size: 20px;
+  font-weight: bold;
+  color: #FFFFFF;
+  text-align: center;
+  margin-left: 15px;
+  cursor: pointer;
+}
+
+#jappix_popup div.jm_prompt .jm_prompt_header .jm_title:hover {
+  text-decoration: none;
+}
+
+#jappix_popup div.jm_prompt .jm_footer {
+  padding: 14px;
+  text-align: right;
+  border-top: 2px solid #D1D1D1;
+}
+
+#jappix_popup div.jm_prompt .jm_footer .jm_reset {
+  padding: 6px 12px;
+  font-size: 1.1rem;
+  font-weight: bold;
+  background-color: #FFFFFF;
+  border-radius: 2px;
+  color: #007BC1;
+  box-shadow: 0 0 1px #EFEFEF;
+  cursor: pointer;
+  border: 1px solid #fff;
+}
+
+#jappix_popup div.jm_prompt .jm_footer .jm_reset:focus {
+  border-color: #007cc3;
+}
+
+#jappix_popup div.jm_prompt .jm_footer .jm_submit {
+  padding: 6px 14px 6px 6px;
+  font-size: 1.1rem;
+  font-weight: bold;
+  background-color: #007BC1;
+  border-radius: 2px;
+  margin-left: 10px;
+  color: #FFFFFF;
+  /*box-shadow: 0 0 1px #2e6da4;*/
+  cursor: pointer;
+  /*border: 1px solid #007BC1 ;*/
+}
+
+#jappix_popup div.jm_prompt .jm_footer .jm_submit:focus {
+  border-color: #fff;
+}
+
+#jappix_popup div.join_conversation .jm_footer .jm_submit {
+  text-align: center;
+  width: 51%;
+}
+
+
+/*#jappix_popup div.jm_prompt .jm_footer .jm_submit::before {
+  content: "";
+  display: block;
+  width: 14px;
+  height: 14px;
+  position: absolute;
+  bottom: 22px;
+  margin-left: -20px;
+  background: url(../images/vnctalk-icons/chat.svg) no-repeat;
+}*/
+
+#jappix_popup div.jm_prompt .jm_footer .jm_submit span.jm_chat_icon {
+  background: url(../images/vnctalk-icons/chat.svg) no-repeat;
+  width: 14px;
+  height: 14px;
+  vertical-align: text-bottom;
+  margin-right: 8px;
+  display: inline-block;
+}
+
+#jappix_popup div.jm_prompt .jm_footer .jm_submit span.jm_video_icon {
+  background: url(../images/vnctalk-icons/videoconference.svg) no-repeat;
+  width: 14px;
+  height: 14px;
+  vertical-align: text-bottom;
+  margin-right: 8px;
+  display: inline-block;
+}
+
+
+#jappix_popup div.join_conversation .jm_footer .jm_submit::before {
+  bottom: 20px;
+  width: 15px;
+  height: 15px;
+  left: 250px;
+  background: url(../images/vnctalk-icons/chat.svg) no-repeat;
+}
+
+#jappix_popup div.jm_prompt .jm_wrap {
+  background-color: #FFFFFF;
+  width: 100%;
+  display: table;
+}
+
+#jappix_popup div.jm_prompt .jm_wrap .jm_invite_wrap {
+  display: block;
+  width: 370px;
+  float: left;
+}
+
+#jappix_popup div.jm_prompt .jm_wrap .jm_invite_wrap .jm_invite_people {
+  border-right: 1px solid #D1D1D1;
+  border-bottom: 1px solid #D1D1D1;
+  overflow: hidden;
+  overflow-x: auto;
+  max-width: 400px;
+  height: 52px;
+  white-space: nowrap;
+  background-color: white;
+}
+
+#jappix_popup div.jm_prompt .jm_wrap .jm_invite_wrap .jm_list_users {
+  border-right: 2px solid #D1D1D1;
+  min-height: 175px;
+  max-height: 250px;
+}
+
+#jappix_popup div.jm_prompt .jm_wrap .jm_invite_wrap .jm_invite_people .jm_text {
+  font-size: 1.3rem;
+  height: 3rem;
+  padding: 5px 5px 5px 5px;
+  width: 100%;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+#jappix_popup div.jm_prompt .jm_wrap .jm_option {
+  width: 330px;
+  float: left;
+}
+
+#jappix_popup div.jm_prompt .jm_wrap .jm_option .jm_text_header {
+  display: block;
+  padding: 13px;
+}
+
+#jappix_popup div.jm_prompt .jm_wrap .jm_option .jm_text_header .jm_lock {
+  font-size: 1.1rem;
+  font-weight: bold;
+  width: 69%;
+  display: inline-block;
+}
+
+#jappix_popup div.jm_prompt .jm_wrap .jm_option .jm_text_header .switch_state {
+  font-size: 14px;
+  margin-left: 19px;
+  margin-right: 13px;
+  display: inline-block;
+  width: 25px;
+}
+
+#jappix_popup div.jm_prompt .jm_wrap .jm_option .jm_text_header .jm_lock_enalbe::before {
+  content: "";
+  display: inline-block;
+  width: 14px;
+  height: 14px;
+  margin-right: 10px;
+  background: url(../images/vnctalk-icons/security-on.svg) no-repeat;
+}
+
+#jappix_mini .jm_lock_on_action {
+  float: left;
+  background: url(../images/vnctalk-icons/security-on.svg) no-repeat;
+  background-position: center;
+  margin: 2px 3px 2px -1px;
+  height: 11px;
+  width: 10px;
+  display: block;
+}
+
+#jappix_mini .jm_lock_off_action {
+  float: left;
+  background: url(../images/vnctalk-icons/security-off.svg) no-repeat;
+  background-position: center;
+  margin: 2px 3px 2px -1px;
+  height: 11px;
+  width: 10px;
+  display: block;
+}
+
+#jappix_popup div.jm_prompt .jm_wrap .jm_option .jm_text_header .jm_lock_disalbe::before {
+  content: "";
+  display: inline-block;
+  width: 14px;
+  height: 14px;
+  margin-right: 10px;
+  background: url(../images/vnctalk-icons/security-off.svg) no-repeat;
+}
+
+#jappix_popup div.jm_prompt .jm_wrap .jm_title_subject {
+  float: left;
+  padding: 13px;
+  width: 330px;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+#jappix_popup div.jm_prompt .jm_wrap .jm_title_subject .jm_subject_optional {
+  font-size: 1.1rem;
+  font-weight: bold;
+  display: block;
+  margin-bottom: 5px;
+}
+
+#jappix_popup div.jm_prompt .jm_wrap .jm_title_subject .jm_subject_input {
+  background-color: #F0F0F0;
+  height: 3rem;
+  font-size: 1.1rem;
+  width: 100%;
+  margin-top: 10px;
+  padding: 10px;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+#jappix_popup div.jm_prompt .jm_wrap .jm_title_subject .jm_link_share {
+  background-color: #F0F0F0;
+  height: 3rem;
+  font-size: 1.1rem;
+  color: black;
+  width: 100%;
+  margin-top: 10px;
+  padding: 10px;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+#jappix_popup div.jm_prompt .jm_wrap .jm_title_subject .jm_copy_link {
+  background-color: white;
+  height: 2.5rem;
+  font-size: 1.3rem;
+  font-weight: bold;
+  width: 100%;
+  margin-top: 10px;
+  color: #007bc1;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  border-style: solid;
+  border-width: thin;
+  cursor: pointer;
+}
+
+#jappix_popup div.jm_prompt .jm_wrap .jm_title_subject .jm_copy_link:focus {
+  border-color: red;
+}
+
+/*Switch on off*/
+
+#jappix_popup div.jm_prompt .flipswitch {
+  top: 5px;
+  display: inline-block;
+  position: relative;
+  width: 35px;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+}
+
+#jappix_popup div.jm_prompt .flipswitch input[type=checkbox] {
+  display: none;
+}
+
+#jappix_popup div.jm_prompt .flipswitch-label {
+  display: block;
+  overflow: hidden;
+  cursor: pointer;
+  border: 1px solid #FFFFFF;
+  border-radius: 50px;
+}
+
+#jappix_popup div.jm_prompt .flipswitch-inner {
+  width: 200%;
+  margin-left: -100%;
+  -webkit-transition: margin 0.3s ease-in 0s;
+  -moz-transition: margin 0.3s ease-in 0s;
+  -ms-transition: margin 0.3s ease-in 0s;
+  -o-transition: margin 0.3s ease-in 0s;
+  transition: margin 0.3s ease-in 0s;
+}
+
+#jappix_popup div.jm_prompt .flipswitch-inner:before,
+.flipswitch-inner:after {
+  float: left;
+  width: 50%;
+  height: 19px;
+  padding: 0;
+  line-height: 19px;
+  font-size: 12px;
+  color: white;
+  font-family: Trebuchet, Arial, sans-serif;
+  font-weight: bold;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+#jappix_popup div.jm_prompt .flipswitch-inner:before {
+  content: "";
+  padding-left: 10px;
+  background-color: #14CA78;
+  color: #FFFFFF;
+}
+
+#jappix_popup div.jm_prompt .flipswitch-inner:after {
+  content: "";
+  padding-right: 10px;
+  background-color: #BFBFBF;
+  color: #888888;
+  text-align: right;
+}
+
+#jappix_popup div.jm_prompt .flipswitch-switch {
+  width: 12px;
+  margin: 3.5px;
+  background: #FFFFFF;
+  border: 1px solid #FFFFFF;
+  border-radius: 50px;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  right: 15px;
+  -webkit-transition: all 0.3s ease-in 0s;
+  -moz-transition: all 0.3s ease-in 0s;
+  -ms-transition: all 0.3s ease-in 0s;
+  -o-transition: all 0.3s ease-in 0s;
+  transition: all 0.3s ease-in 0s;
+}
+
+#jappix_popup div.jm_prompt .flipswitch-cb:checked + .flipswitch-label .flipswitch-inner {
+  margin-left: 0;
+}
+
+#jappix_popup div.jm_prompt .flipswitch-cb:checked + .flipswitch-label .flipswitch-switch {
+  right: 0;
+}
+
+.ui-autocomplete {
+  border: none;
+}
+
+#jappix_mini .jm_start_file_transfer {
+  float: left;
+  background: url(../images/vnctalk-icons/file-attachment.svg) no-repeat;
+  background-position: center;
+  margin: 0 -2px 0 5px;
+  height: 20px;
+  width: 20px;
+  outline-style: none;
+  display: block;
+}
+
+#jappix_mini .jm_smile_action {
+  left: 35px;
+  background: url(../images/vnctalk-icons/smile.svg) no-repeat;
+  background-position: center;
+  margin: 0 -2px 0 5px;
+  height: 20px;
+  width: 20px;
+  outline-style: none;
+  display: block;
+  position: absolute;
+}
+
+#jappix_mini .jm_smile_action.jm_isgroup {
+  left: 0;
+  background: url(../images/vnctalk-icons/smile.svg) no-repeat;
+  background-position: center;
+  margin: 0 -2px 0 5px;
+  height: 20px;
+  width: 20px;
+  outline-style: none;
+  display: block;
+  position: absolute;
+}
+
+#jappix_mini .jm_lock_action {
+  float: right;
+  background: url(../images/vnctalk-icons/security.svg) no-repeat;
+  background-position: center;
+  margin: 0 -2px 0 5px;
+  height: 20px;
+  width: 20px;
+  outline-style: none;
+  display: block;
+}
+
+#jappix_mini .jm_start_video_chat {
+  right: 9px;
+  position: absolute;
+  background: url(../images/vnctalk-icons/videoconference.svg) no-repeat;
+  width: 20px;
+  height: 20px;
+  margin-top: -10px;
+  top: 50%;
+}
+
+#jappix_mini .jm_conversation .jm_actions button.start_video_chat {
+  float: right;
+  height: 41px;
+  width: 38px;
+  background-color: #0087c3;
+  margin: -21px -6px;
+}
+
+#jappix_mini .jm_start_video_chat.jm_isgroup {
+  float: right;
+  background: url(../images/vnctalk-icons/videoconference.svg) no-repeat;
+  background-position: center;
+}
+
+#jappix_mini .jm_icon_start_video_chat {
+  background: url(../images/vnctalk-icons/videoconference.svg) no-repeat;
+  background-position: center;
+  background-color: #0087c3;
+  height: 20px;
+  width: 24px;
+  background-size: 14px 11px;
+  border-radius: 2px;
+  top: 50%;
+  position: absolute;
+  right: 12px;
+  margin-top: -10px;
+  cursor: pointer;
+}
+
+#jappix_mini .jm_messages_icon {
+  background: url(../images/vnctalk-icons/chat.svg) no-repeat;
+  background-position: center;
+  background-color: #0087c3;
+  height: 20px;
+  width: 24px;
+  background-size: 14px 11px;
+  border-radius: 2px;
+  margin-right: 1px;
+  top: 50%;
+  position: absolute;
+  right: 54px;
+  margin-top: -10px;
+  cursor: pointer;
+}
+
+#jappix_mini .jm_start_video_chat:hover {
+  opacity: 1.0;
+}
+
+#jappix_mini .jm_invite_people {
+  right: 27px;
+  background: url(../images/vnctalk-icons/invite-user.svg) no-repeat;
+  background-position: center;
+  background-color: transparent;
+  top: 25%;
+  width: 20px;
+  height: 20px;
+  position: absolute;
+}
+#jappix_mini .jm_conversation .jm_actions button.invite_people {
+  float: right;
+  height: 41px;
+  width: 40px;
+  background-color: #0087c3;
+  margin: -21px 31px;
+}
+
+#jappix_mini .jm_invite_people.jm_isgroup {
+  right: 46px;
+  background: url(../images/vnctalk-icons/invite-user.svg) no-repeat;
+  background-position: center;
+  background-color: transparent;
+  top: 25%;
+  width: 20px;
+  height: 20px;
+  position: absolute;
+}
+#jappix_mini .jm_conversation .jm_actions button:hover , #jappix_mini .jm_conversation .jm_actions button.clicked {
+  background-color: #006faf;
+}
+#jappix_mini .jm_invite_people:hover {
+  opacity: 1.0;
+}
+
+#jappix_mini .jm_mimized_invite_people {
+  padding-left: 10px;
+  background: url(../images/vnctalk-icons/invite-user.svg) no-repeat;
+  background-position: center;
+  margin-left: 95px;
+  margin-top: -1px;
+  height: 19px;
+  width: 27px;
+  background-color: grey;
+}
+
+#jappix_mini .jm_minimized_start_video_chat {
+  background: url(../images/sprites/video_chat.png);
+  background-repeat: no-repeat;
+  background-position: 2px 2px;
+  margin-left: 123px;
+  margin-top: -19px;
+  height: 20px;
+  width: 21px;
+  background-color: grey;
+}
+
+#jappix_mini .jm_minimized_start_video_chat:hover {
+  opacity: 1.0;
+}
+
+#jappix_mini .jm_mimized_invite_people:hover {
+  opacity: 1.0;
+}
+
+@-moz-keyframes jm_animate {
+  to {
+    margin-top: 4px;
+  }
+}
+
+@-webkit-keyframes jm_animate {
+  to {
+    margin-top: 4px;
+  }
+}
+
+@keyframes jm_animate {
+  to {
+    margin-top: 4px;
+  }
+}
+
+#chat-file_transfer progress {
+  height: 14px;
+  width: 85%;
+  float: left;
+}
+
+#jappix_mini a.jm_transfer.jm_close {
+  margin-left: 5px;
+  height: 15px;
+  width: 15px;
+  display: inline-block;
+  cursor: pointer;
+  background: url(../images/vnctalk-icons/close.svg) no-repeat;
+  background-position: center;
+  background-color: #727879;
+}
+
+.subject-name-text-overflow {
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+#jappix_mini .manage_group {
+  position: relative;
+  right: -76px;
+  bottom: 195px;
+  width: 200px;
+  height: 90px;
+  background-color: #FE982A;
+  box-shadow: 1px 1px 1px #9E9E9E;
+  color: #FFFFFF;
+}
+
+#jappix_mini .manage_group p {
+  text-align: center;
+  color: #FFFFFF;
+  font-size: 16px;
+  padding: 0px 15px;
+}
+
+#jappix_mini .manage_group span {
+  color: #FFFFFF;
+  font-size: 20px;
+  margin-left: 7px;
+  cursor: pointer;
+}
+
+#jappix_mini .manage_group:after,
+#jappix_mini .manage_group:before {
+  top: 100%;
+  left: 69%;
+  border: solid transparent;
+  content: " ";
+  height: 0;
+  width: 0;
+  position: absolute;
+  pointer-events: none;
+}
+
+#jappix_mini .manage_group:after {
+  border-color: rgba(136, 183, 213, 0);
+  border-top-color: #FE982A;
+  border-width: 12px;
+  margin-left: -12px;
+}
+
+#jappix_mini .manage_group:before {
+  border-color: rgba(194, 225, 245, 0);
+  border-top-color: #F1DCC5;
+  border-width: 13px;
+  margin-left: -13px;
+}
+
+#jappix_mini .jm_user-message .emoji {
+  width: 1.5em;
+  height: 1.5em;
+  display: inline-block;
+  margin-bottom: -0.25em;
+  background-size: contain;
+}
+
+#jappix_notification {
+  text-align: center;
+}
+
+.error_browser {
+  background-color: #B80000;
+}
+
+.error_browser .jm_notification_close {
+  display: inline-block;
+  width: 14px;
+  height: 14px;
+  position: absolute;
+  top: 15px;
+  left: 14px;
+  cursor: pointer;
+  background: url(../images/vnctalk-icons/close.svg) no-repeat;
+}
+
+.error_browser .jm_notification_text {
+  color: #FFFFFF;
+  margin: 0;
+  font-size: 1.1rem;
+  padding: 10px 0;
+}
+
+
+/*For invite notification*/
+
+.invite_notification {
+  height: 60px;
+  background-color: #B4FF98;
+}
+
+.content_notification {
+  text-align: center;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.button_notification {
+  text-align: center;
+  margin-top: 7px;
+}
+
+.yes_notification {
+  min-width: 150px;
+  max-width: 167px;
+  height: 22px;
+  border-style: solid;
+  border-radius: 5px;
+  margin-left: 10px;
+  background-color: #007CC2;
+  border-color: #007CC2;
+  color: #FFFFFF;
+  cursor: pointer;
+}
+
+.no_notification {
+  width: 150px;
+  height: 22px;
+  border-style: solid;
+  border-radius: 5px;
+  background-color: #FFFFFF;
+  border-color: #FFFFFF;
+  color: #007CC2;
+  cursor: pointer;
+}
+
+.active_video_conference_notification {
+  height: 40px;
+  line-height: 40px;
+  background-color: #B4FF98;
+  text-align: center;
+  display: -moz-flex;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-justify-content: space-between;
+  justify-content: space-between;
+}
+
+.active_video_conference_notification .flex-item:nth-of-type(1) {
+  flex: 1 20%;
+  -webkit-flex: 1 20%;
+}
+
+.active_video_conference_notification .flex-item:nth-of-type(2) {
+  flex: 2 60%;
+  -webkit-flex: 2 60%;
+  font-size: 1.1rem;
+  font-weight: bold;
+}
+
+.active_video_conference_notification .flex-item:nth-of-type(3) {
+  flex: 1 20%;
+  -webkit-flex: 1 20%;
+  text-align: right;
+}
+
+.active_video_conference_notification .flex-item:nth-of-type(3) button {
+  height: 22px;
+  border-style: solid;
+  border-radius: 5px;
+  background-color: #FE0000;
+  border-color: #FE0000;
+  color: #FFFFFF;
+  cursor: pointer;
+  margin-right: 13px;
+}
+
+#jappix_mini .jm_chat_description div.title_headers {
+  width: 86%;
+  float: left;
+}
+
+#jappix_mini .jm_info {
+  float: right;
+  background: url(../images/vnctalk-icons/info.svg) no-repeat;
+  width: 10%;
+  height: 18px;
+  margin-top: 3px;
+  opacity: 0.5;
+}
+#jappix_mini .jm_info.clicked {
+  opacity: 1;
+}
+#jappix_mini .jm_edit_pen {
+  float: right;
+  background: url(../images/vnctalk-icons/edit-pen.svg) no-repeat;
+  width: 8%;
+    height: 19px;
+    margin-top: 6px;
+}
+#jappix_mini .jm_chat_description div.md_5 {
+  width: 86%;
+  display: inline-block;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+#jappix_mini .jm_chat_description div.md_5:last-child {
+  /*text-align: right;*/
+  font-size: 12px;
+}
+
+#jappix_mini .jm_chat_description div.title_groupchat {
+  width: 86%;
+  display: inline-block;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  font-size: 12px;
+}
+
+
+/*For suggest invite member*/
+
+#jappix_mini div.suggest_invite_member {
+  display: none;
+  height: 276px;
+  width: 261px;
+  top: 54px;
+  position: absolute;
+  border: 1px solid #E0E5EB;
+  background-color: #FDFDFD;
+  z-index: 5;
+}
+
+#jappix_mini div.suggest_invite_member.left {
+  left: 62px;
+}
+#jappix_mini div.suggest_invite_member.left:before {
+  color: black;
+  bottom: 100%;
+  left: 49%;
+  border: solid transparent;
+  content: " ";
+  position: absolute;
+  pointer-events: none;
+  border-bottom-width: 12px;
+  border-right-width: 12px;
+  border-left-width: 12px;
+  border-bottom-color: #FFFFFF;
+}
+
+#jappix_mini div.suggest_invite_member.right {
+  left: 100px;
+}
+#jappix_mini div.suggest_invite_member.right:before {
+  color: black;
+  bottom: 100%;
+  left: 34%;
+  border: solid transparent;
+  content: " ";
+  position: absolute;
+  pointer-events: none;
+  border-bottom-width: 12px;
+  border-right-width: 12px;
+  border-left-width: 12px;
+  border-bottom-color: #FFFFFF;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  overflow: hidden;
+}
+#jappix_mini #suggest_invite_input_value {
+  height: 25px;
+  width: 261px;
+  padding-top: 10px;
+  -webkit-box-sizing: border-box;
+  /* Safari/Chrome, other WebKit */
+  -moz-box-sizing: border-box;
+  /* Firefox, other Gecko */
+  box-sizing: border-box;
+  /* Opera/IE 8+ */
+}
+
+#jappix_popup #input_invite_people_talk {
+  height: 40px;
+  width: 340px;
+  margin-left: 5px;
+  -webkit-box-sizing: border-box;
+  /* Safari/Chrome, other WebKit */
+  -moz-box-sizing: border-box;
+  /* Firefox, other Gecko */
+  box-sizing: border-box;
+  /* Opera/IE 8+ */
+  border: none;
+}
+
+#jappix_mini div.suggest_invite_input {
+  /*border-style: solid;
+  border-color: #d8d8d8;
+  border-width: 1px;*/
+  white-space: nowrap;
+  overflow: hidden;
+  overflow-x: auto;
+  height: 45px;
+}
+
+#jappix_mini button.cancle_invtie {
+  width: 100px;
+  height: 22px;
+  border-style: solid;
+  background-color: #FFFFFF;
+  border-color: #FFFFFF;
+  color: #007CC2;
+  text-align: center;
+  margin-left: 26px;
+  margin-top: 5px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+#jappix_mini button.submit_invite {
+  width: 100px;
+  height: 22px;
+  border-style: solid;
+  background-color: #007CC2;
+  border-color: #007CC2;
+  color: #FFFFFF;
+  text-align: center;
+  float: right;
+  margin-right: 26px;
+  margin-top: 5px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+#jappix_mini div.suggest_invite_button {
+  position: absolute;
+  bottom: 0;
+  background-color: #E0E5EB;
+  height: 32px;
+  width: 100%;
+}
+
+#jappix_mini hr.suggest_invite_break {
+  background: #E0E5EB;
+  height: 1px;
+  width: 100%;
+}
+
+#jappix_mini div.suggest_invite_content {
+  overflow-y: auto;
+  overflow-x: hidden;
+  height: 210px;
+  position: relative;
+}
+#jappix_mini div.suggest_invite_content div.jm_no_search {
+  font-size: 1.2rem;
+  opacity: 0.4;
+  text-align: center;
+  margin-top: 35%;
+}
+
+#jappix_mini div.suggest_invite_content a.jm_invitee_people {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  cursor: pointer;
+}
+
+#jappix_mini div.suggest_invite_content a.jm_invitee_people span.jm_presence {
+  margin-top: 1px;
+}
+
+#jappix_mini .tab-content {
+  background-color: #FFFFFF;
+}
+
+#jappix_mini .tab-content .tab-pane {
+  display: none;
+}
+
+#jappix_mini .tab-content .tab-pane:last-child {
+  display: block;
+}
+
+#jappix_mini .tab-content-settings {
+  padding: 0 15px;
+}
+
+#jappix_mini .tab-content-settings .pane-settings {
+  overflow: auto;
+  padding: 15px 0px;
+  border-bottom: 1px solid #a9a6a6;
+}
+
+#jappix_mini .tab-content-settings .pane-settings .setting-label {
+  float: left;
+}
+
+#jappix_mini .tab-content-settings .pane-settings .setting-content {
+  float: right;
+}
+
+#jappix_mini .cursor-pointer {
+  cursor: pointer;
+}
+
+
+#jappix_popup input.jm_submit {
+  cursor: pointer;
+}
+
+#jappix_popup a {
+  cursor: pointer;
+}
+
+.error_browser .jm_notification_submit {
+  font-size: 16px;
+  width: 133px;
+  background-color: #FFFFFF;
+  border-radius: 5px;
+  margin-left: 10px;
+  color: #0087C3;
+  cursor: pointer;
+  text-align: center;
+  border-color: #FFFFFF;
+  border-style: solid;
+  margin-bottom: 13px;
+}
+
+.notify_unavailable {
+  background-color: #B4FF98;
+}
+
+.notify_unavailable .jm_notification_text {
+  margin: 0;
+  font-size: 1.1rem;
+  padding: 10px 0;
+}
+
+#jappix_mini div.none_online_message {
+	text-align: center;
+	margin-top: 50%;
+	color: #d8d8d8;
+	font-size: 1.4rem;
+}
+
+#settings div.user_profile_avt {
+  overflow: auto;
+  padding: 15px 0px;
+  border-bottom: 1px solid #a9a6a6;
+}
+
+#settings div.user_profile_avt div.my_avartar {
+  float: right;
+}
+
+#settings div.user_profile_avt div.my_profile {
+  float: left;
+  margin: 15px 0;
+}
+
+#settings div.user_profile_avt div.my_avartar img {
+  border-radius: 50%;
+  border-width: 1px;
+  border-color: #d8d8d8;
+  border-style: solid;
+  height: 40px;
+  width: 40px;
+}
+
+#jm_profile_user div.jm_profile_header a.profile_name {
+  max-width: 250px;
+  display: block;
+  margin-left: 30px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+/*CSS in crop image use croppie library*/
+#jappix_popup .croppie-container .cr-viewport{
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+
+#jappix_popup .croppie-container .cr-slider-wrap {
+    width: 33%;
+    margin: 0 auto;
+    position: absolute;
+    left: 50%;
+    top: 12.5%;
+    display: flex;
+    transform: translateX(-50%);
+}
+
+#jappix_popup #hr_crop_image{
+  padding-top: 50px;
+  border: 1px solid #D1D1D1;
+  background-color: #fff;
+}
+#jappix_popup .jm_crop_content{
+  background-color: #fff;
+}
+#jappix_popup .cr_text-slider{
+  margin-right: 10px;
+}
+
+#jappix_popup .cr-slider::-webkit-slider-runnable-track {
+  background: #D1D1D1 !important;
+}
+
+#jappix_popup .cr-slider::-moz-range-track {
+  background: #D1D1D1 !important;
+}
+
+#jappix_popup .cr-slider::-ms-track{
+  background: #D1D1D1 !important;
+}
+
+#jappix_popup input[type=range]::-webkit-slider-thumb {
+  background: #0087c3 !important;
+
+}
+#jappix_popup input[type=range]::-moz-range-thumb {
+  background: #0087c3 !important;
+
+}
+#jappix_popup input[type=range]::-ms-thumb {
+  background: #0087c3 !important;
+
+}
+
+#jappix_popup div.jm_prompt:has(div.jm_crop_content){
+  background-color: #fff !important;
+}
+#jappix_mini .jm_input_my_avatar {
+  cursor: pointer;
+}
+#jappix_popup .jm_form_crop_image{
+  margin-left:  0px ;
+  width: 450px !important;
+}
+#jappix_popup .jm_prompt_crop_image{
+  top: 50%;
+  left: 50%;
+  margin-left: 0px !important;
+  transform: translate(-50%,-50%);
+}

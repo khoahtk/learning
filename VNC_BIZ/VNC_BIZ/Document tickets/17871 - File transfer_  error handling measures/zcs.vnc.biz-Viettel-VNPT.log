@@ -1,0 +1,373 @@
+JSJaCPresence {base: function, name: "presence", doc: document, setStatus: function, setShow: function…}
+Processed presence for regular user: br@vnc.biz (highest priority for: br@vnc.biz/androidWOk4Eh6t)
+Presence displayed for user: br@vnc.biz
+Presence received from: br@vnc.biz/VNCChat(1432288936096)
+JSJaCPresence {base: function, name: "presence", doc: document, setStatus: function, setShow: function…}
+Processed presence for regular user: br@vnc.biz (highest priority for: br@vnc.biz/jitsi-1sj0ohd)
+error
+Presence displayed for user: br@vnc.biz
+Presence received from: br@vnc.biz/androidWOk4Eh6t
+Presence sent (to: testvideo@conference.vnc.biz/phuong.vu, show: none, type: none)
+JSJaCPresence {base: function, name: "presence", doc: document, setStatus: function, setShow: function…}
+Processed initial presence for regular user: testvideo@conference.vnc.biz (highest priority for: testvideo@conference.vnc.biz/phuong.vu)
+Presence displayed for user: testvideo@conference.vnc.biz
+Presence received from: testvideo@conference.vnc.biz/phuong.vu
+Presence sent (to: testvideo@conference.vnc.biz/phuong.vu, show: none, type: none)
+JSJaCPresence {base: function, name: "presence", doc: document, setStatus: function, setShow: function…}
+Processed presence for groupchat user: testvideo@conference.vnc.biz/phuong.vu
+Presence displayed for user: testvideo@conference.vnc.biz/phuong.vu
+Presence received from: testvideo@conference.vnc.biz/phuong.vu
+Presence sent (to: testvideo@conference.vnc.biz/phuong.vu, show: none, type: unavailable)
+JSJaCPresence {base: function, name: "presence", doc: document, setStatus: function, setShow: function…}
+Processed presence for regular user: testvideo@conference.vnc.biz (highest priority for: testvideo@conference.vnc.biz/phuong.vu)
+error
+Presence displayed for user: testvideo@conference.vnc.biz
+Presence received from: testvideo@conference.vnc.biz/phuong.vu
+Presence sent (to: test_video@conference.vnc.biz/phuong.vu, show: none, type: none)
+JSJaCPresence {base: function, name: "presence", doc: document, setStatus: function, setShow: function…}
+Processed initial presence for regular user: test_video@conference.vnc.biz (highest priority for: test_video@conference.vnc.biz/quy.dang)
+Presence displayed for user: test_video@conference.vnc.biz
+Presence received from: test_video@conference.vnc.biz/quy.dang
+JSJaCPresence {base: function, name: "presence", doc: document, setStatus: function, setShow: function…}
+Processed presence for regular user: test_video@conference.vnc.biz (highest priority for: test_video@conference.vnc.biz/phuong.vu)
+Presence displayed for user: test_video@conference.vnc.biz
+Presence received from: test_video@conference.vnc.biz/phuong.vu
+Presence sent (to: test_video@conference.vnc.biz/phuong.vu, show: none, type: unavailable)
+JSJaCPresence {base: function, name: "presence", doc: document, setStatus: function, setShow: function…}
+Processed presence for regular user: test_video@conference.vnc.biz (highest priority for: test_video@conference.vnc.biz/phuong.vu)
+error
+Presence displayed for user: test_video@conference.vnc.biz
+Presence received from: test_video@conference.vnc.biz/phuong.vu
+Sent active chatstate to quy.dang@vnc.biz
+JSJaCPresence {base: function, name: "presence", doc: document, setStatus: function, setShow: function…}
+Processed presence for regular user: focus@auth.vnc.biz (highest priority for: focus@auth.vnc.biz/focus4457826922574975)
+Presence displayed for user: focus@auth.vnc.biz
+Presence received from: focus@auth.vnc.biz/focus4457826922574975
+JSJaCPresence {base: function, name: "presence", doc: document, setStatus: function, setShow: function…}
+Processed presence for regular user: quy.dang@vnc.biz (highest priority for: quy.dang@vnc.biz/VNCChat(1432289265151))
+Presence displayed for user: quy.dang@vnc.biz
+Presence received from: quy.dang@vnc.biz/0ec08e61-23f9-4309-9906-d70870fbfe2f
+JSJaCPresence {base: function, name: "presence", doc: document, setStatus: function, setShow: function…}
+Processed presence for regular user: shantanu.kumar@vnc.biz (highest priority for: shantanu.kumar@vnc.biz/Pidgin)
+Presence displayed for user: shantanu.kumar@vnc.biz
+Presence received from: shantanu.kumar@vnc.biz/androidekrGT73E
+Presence sent (to: v4mfqiq8@conference.vnc.biz/phuong.vu, show: none, type: none)
+Sent inactive chatstate to quy.dang@vnc.biz
+init
+This appears to be Chrome
+Strophe status changed to CONNECTING
+onUserMediaSuccess
+got MediaStream {onremovetrack: null, onaddtrack: null, onended: null, oninactive: null, onactive: null…} 1 1
+hover in blob:https%3A//xmpp.vnc.biz/a0a1c6e1-5b79-4b6a-8bf1-42c0e5f58ffe
+JSJaCPresence {base: function, name: "presence", doc: document, setStatus: function, setShow: function…}
+Processed presence for regular user: shantanu.kumar@vnc.biz (highest priority for: shantanu.kumar@vnc.biz/Pidgin)
+Presence displayed for user: shantanu.kumar@vnc.biz
+Presence received from: shantanu.kumar@vnc.biz/androidekrGT73E
+JSJaCPresence {base: function, name: "presence", doc: document, setStatus: function, setShow: function…}
+Processed presence for groupchat user: v4mfqiq8@conference.vnc.biz/quy.dang
+Presence displayed for user: v4mfqiq8@conference.vnc.biz/quy.dang
+Presence received from: v4mfqiq8@conference.vnc.biz/quy.dang
+JSJaCPresence {base: function, name: "presence", doc: document, setStatus: function, setShow: function…}
+Processed presence for groupchat user: v4mfqiq8@conference.vnc.biz/phuong.vu
+Presence displayed for user: v4mfqiq8@conference.vnc.biz/phuong.vu
+Presence received from: v4mfqiq8@conference.vnc.biz/phuong.vu
+Strophe status changed to CONNFAIL
+Strophe status changed to DISCONNECTING
+Strophe status changed to DISCONNECTED
+password is required
+Strophe status changed to CONNECTING
+JSJaCPresence {base: function, name: "presence", doc: document, setStatus: function, setShow: function…}
+Processed presence for regular user: focus@auth.vnc.biz (highest priority for: focus@auth.vnc.biz/focus4457876323301572)
+Presence displayed for user: focus@auth.vnc.biz
+Presence received from: focus@auth.vnc.biz/focus4457876323301572
+JSJaCPresence {base: function, name: "presence", doc: document, setStatus: function, setShow: function…}
+Processed presence for groupchat user: v4mfqiq8@conference.vnc.biz/focus
+Presence displayed for user: v4mfqiq8@conference.vnc.biz/focus
+Presence received from: v4mfqiq8@conference.vnc.biz/focus
+JSJaCIQ {base: function, name: "iq", doc: document, setIQ: function, setQuery: function…}
+Received a disco#infos query.
+Strophe status changed to CONNECTED
+My Jabber ID: phuong.vu@vnc.biz/9eb37671-d2e1-49f0-bb00-5bab3f94e5b5
+Focus jid set to: undefined
+JSJaCPresence {base: function, name: "presence", doc: document, setStatus: function, setShow: function…}
+Processed presence for groupchat user: v4mfqiq8@conference.vnc.biz/quy.dang_video
+Presence displayed for user: v4mfqiq8@conference.vnc.biz/quy.dang_video
+Presence received from: v4mfqiq8@conference.vnc.biz/quy.dang_video
+JSJaCIQ {base: function, name: "iq", doc: document, setIQ: function, setQuery: function…}
+Received an unsupported IQ query from: v4mfqiq8@conference.vnc.biz/focus
+JSJaCPresence {base: function, name: "presence", doc: document, setStatus: function, setShow: function…}
+Processed presence for groupchat user: v4mfqiq8@conference.vnc.biz/quy.dang_video
+Presence displayed for user: v4mfqiq8@conference.vnc.biz/quy.dang_video
+Presence received from: v4mfqiq8@conference.vnc.biz/quy.dang_video
+Focus jid set to: focus@auth.vnc.biz
+External authentication enabled: false
+Sip gateway enabled: false
+Joined MUC as v4mfqiq8@conference.vnc.biz/phuong.vu_video
+JSJaCPresence {base: function, name: "presence", doc: document, setStatus: function, setShow: function…}
+Processed presence for groupchat user: v4mfqiq8@conference.vnc.biz/phuong.vu
+Presence displayed for user: v4mfqiq8@conference.vnc.biz/phuong.vu
+Presence received from: v4mfqiq8@conference.vnc.biz/phuong.vu
+Etherpad added wvyxfy1fw29_1432289858003
+entered v4mfqiq8@conference.vnc.biz/quy.dang_video Object {show: "", status: "", affiliation: "owner", role: "moderator", jid: "quy.dang@vnc.biz/947e2225-f961-451c-80d2-78e26cf0a5b6"…}
+My role changed, new role: moderator
+JSJaCPresence {base: function, name: "presence", doc: document, setStatus: function, setShow: function…}
+Processed presence for groupchat user: v4mfqiq8@conference.vnc.biz/phuong.vu_video
+Presence displayed for user: v4mfqiq8@conference.vnc.biz/phuong.vu_video
+Presence received from: v4mfqiq8@conference.vnc.biz/phuong.vu_video
+on jingle session-initiate from v4mfqiq8@conference.vnc.biz/focus <iq xmlns=​"jabber:​client" type=​"set" to=​"phuong.vu@vnc.biz/​9eb37671-d2e1-49f0-bb00-5bab3f94e5b5" from=​"v4mfqiq8@conference.vnc.biz/​focus" id=​"cGh1b25nLnZ1QHZuYy5iaXovOWViMzc2NzEtZDJlMS00OWYwLWJiMDAtNWJhYjNmOTRlNWI1ADY4MGlrLTIzMzQAZwNYpwepqm62LAuyFMkqrg==">​…​</iq>​
+setRemoteDescription when remote description is not null, should be pranswer RTCSessionDescription {sdp: "", type: ""}
+emuc data for v4mfqiq8@conference.vnc.biz/focus undefined
+Etherpad added wvyxfy1fw29_1432289858003
+JSJaCPresence {base: function, name: "presence", doc: document, setStatus: function, setShow: function…}
+Processed presence for groupchat user: v4mfqiq8@conference.vnc.biz/quy.dang_video
+Presence displayed for user: v4mfqiq8@conference.vnc.biz/quy.dang_video
+Presence received from: v4mfqiq8@conference.vnc.biz/quy.dang_video
+REMOTE STREAM ADDED: [object MediaStream] - mixedmslabel
+JSJaCPresence {base: function, name: "presence", doc: document, setStatus: function, setShow: function…}
+Processed presence for groupchat user: v4mfqiq8@conference.vnc.biz/phuong.vu_video
+Presence displayed for user: v4mfqiq8@conference.vnc.biz/phuong.vu_video
+Presence received from: v4mfqiq8@conference.vnc.biz/phuong.vu_video
+new ssrcs [Object, Object]
+sendIceCandidates [RTCIceCandidate, RTCIceCandidate, RTCIceCandidate, RTCIceCandidate, RTCIceCandidate, RTCIceCandidate, RTCIceCandidate, RTCIceCandidate]
+No jid for ssrc: 4024720619
+No jid for ssrc: 1047892382
+No jid for ssrc: 4024720619
+No jid for ssrc: 1047892382
+No jid for ssrc: 4024720619
+No jid for ssrc: 1047892382
+JSJaCPresence {base: function, name: "presence", doc: document, setStatus: function, setShow: function…}
+Processed presence for groupchat user: v4mfqiq8@conference.vnc.biz/phuong.vu_video
+Presence displayed for user: v4mfqiq8@conference.vnc.biz/phuong.vu_video
+Presence received from: v4mfqiq8@conference.vnc.biz/phuong.vu_video
+Etherpad added wvyxfy1fw29_1432289858003
+sendIceCandidates [RTCIceCandidate, RTCIceCandidate]
+on jingle source-add from v4mfqiq8@conference.vnc.biz/focus <iq xmlns=​"jabber:​client" type=​"set" to=​"phuong.vu@vnc.biz/​9eb37671-d2e1-49f0-bb00-5bab3f94e5b5" from=​"v4mfqiq8@conference.vnc.biz/​focus" id=​"cGh1b25nLnZ1QHZuYy5iaXovOWViMzc2NzEtZDJlMS00OWYwLWJiMDAtNWJhYjNmOTRlNWI1ADY4MGlrLTIzNDMAZwNYpwepqm62LAuyFMkqrg==">​…​</iq>​
+addssrc 1432289868494
+ice checking
+modifySources not yet stable checking
+Have we encountered any srflx candidates? true
+Have we encountered any relay candidates? true
+sendIceCandidates [RTCIceCandidate, RTCIceCandidate]
+modifySources not yet stable checking
+Etherpad added wvyxfy1fw29_1432289858003
+JSJaCPresence {base: function, name: "presence", doc: document, setStatus: function, setShow: function…}
+Processed presence for groupchat user: v4mfqiq8@conference.vnc.biz/quy.dang_video
+Presence displayed for user: v4mfqiq8@conference.vnc.biz/quy.dang_video
+Presence received from: v4mfqiq8@conference.vnc.biz/quy.dang_video
+modifySources not yet stable checking
+Etherpad added wvyxfy1fw29_1432289858003
+JSJaCPresence {base: function, name: "presence", doc: document, setStatus: function, setShow: function…}
+Processed presence for groupchat user: v4mfqiq8@conference.vnc.biz/phuong.vu_video
+Presence displayed for user: v4mfqiq8@conference.vnc.biz/phuong.vu_video
+Presence received from: v4mfqiq8@conference.vnc.biz/phuong.vu_video
+Etherpad added wvyxfy1fw29_1432289858003
+JSJaCPresence {base: function, name: "presence", doc: document, setStatus: function, setShow: function…}
+Processed presence for groupchat user: v4mfqiq8@conference.vnc.biz/quy.dang_video
+Presence displayed for user: v4mfqiq8@conference.vnc.biz/quy.dang_video
+Presence received from: v4mfqiq8@conference.vnc.biz/quy.dang_video
+REMOTE STREAM ADDED: [object MediaStream] - 001e510b-8274-4332-818f-dbbfdf125b94
+associated jid v4mfqiq8@conference.vnc.biz/quy.dang_video undefined
+REMOTE STREAM ADDED: [object MediaStream] - 8fa183b8-1635-4c8a-b93e-3e24a91a6735
+associated jid v4mfqiq8@conference.vnc.biz/quy.dang_video undefined
+new ssrcs [Object, Object]
+306561602 not enough data
+1004146405 not enough data
+306561602 not enough data
+1004146405 not enough data
+JSJaCPresence {base: function, name: "presence", doc: document, setStatus: function, setShow: function…}
+Processed presence for groupchat user: v4mfqiq8@conference.vnc.biz/phuong.vu_video
+Presence displayed for user: v4mfqiq8@conference.vnc.biz/phuong.vu_video
+Presence received from: v4mfqiq8@conference.vnc.biz/phuong.vu_video
+Etherpad added wvyxfy1fw29_1432289858003
+hover in blob:https%3A//xmpp.vnc.biz/4dd49c99-c5ed-4192-b3a3-0c5dc3ff3aa0
+selected endpoint changed:  quy.dang_video
+UI enable dominant speaker quy.dang_video quy.dang_video true
+Jingle error Object {source: "transportinfo"}
+Jingle error Object {source: "answer"}
+Jingle error Object {source: "transportinfo"}
+Jingle error Object {source: "transportinfo"}
+Etherpad added wvyxfy1fw29_1432289858003
+JSJaCPresence {base: function, name: "presence", doc: document, setStatus: function, setShow: function…}
+Processed presence for groupchat user: v4mfqiq8@conference.vnc.biz/quy.dang_video
+Presence displayed for user: v4mfqiq8@conference.vnc.biz/quy.dang_video
+Presence received from: v4mfqiq8@conference.vnc.biz/quy.dang_video
+Etherpad added wvyxfy1fw29_1432289858003
+JSJaCPresence {base: function, name: "presence", doc: document, setStatus: function, setShow: function…}
+Processed presence for groupchat user: v4mfqiq8@conference.vnc.biz/phuong.vu_video
+Presence displayed for user: v4mfqiq8@conference.vnc.biz/phuong.vu_video
+Presence received from: v4mfqiq8@conference.vnc.biz/phuong.vu_video
+Etherpad added wvyxfy1fw29_1432289858003
+JSJaCPresence {base: function, name: "presence", doc: document, setStatus: function, setShow: function…}
+Processed presence for groupchat user: v4mfqiq8@conference.vnc.biz/quy.dang_video
+Presence displayed for user: v4mfqiq8@conference.vnc.biz/quy.dang_video
+Presence received from: v4mfqiq8@conference.vnc.biz/quy.dang_video
+Etherpad added wvyxfy1fw29_1432289858003
+JSJaCPresence {base: function, name: "presence", doc: document, setStatus: function, setShow: function…}
+Processed presence for groupchat user: v4mfqiq8@conference.vnc.biz/phuong.vu_video
+Presence displayed for user: v4mfqiq8@conference.vnc.biz/phuong.vu_video
+Presence received from: v4mfqiq8@conference.vnc.biz/phuong.vu_video
+Uncaught TypeError: Cannot read property 'id' of undefined
+signed out
+#document
+Strophe: request id 27.1 error 0 happened
+Strophe: request errored, status: 0, number of errors: 1
+JSJaCPresence {base: function, name: "presence", doc: document, setStatus: function, setShow: function…}
+Processed presence for regular user: phuong.vu@vnc.biz (highest priority for: phuong.vu@vnc.biz/VNCChat(1432289374784))
+Presence displayed for user: phuong.vu@vnc.biz
+Presence received from: phuong.vu@vnc.biz/9eb37671-d2e1-49f0-bb00-5bab3f94e5b5
+JSJaCPresence {base: function, name: "presence", doc: document, setStatus: function, setShow: function…}
+Processed presence for groupchat user: v4mfqiq8@conference.vnc.biz/phuong.vu_video
+error
+Presence displayed for user: v4mfqiq8@conference.vnc.biz/phuong.vu_video
+Presence received from: v4mfqiq8@conference.vnc.biz/phuong.vu_video
+JSJaCPresence {base: function, name: "presence", doc: document, setStatus: function, setShow: function…}
+Processed presence for groupchat user: v4mfqiq8@conference.vnc.biz/quy.dang_video
+Presence displayed for user: v4mfqiq8@conference.vnc.biz/quy.dang_video
+Presence received from: v4mfqiq8@conference.vnc.biz/quy.dang_video
+JSJaCPresence {base: function, name: "presence", doc: document, setStatus: function, setShow: function…}
+Processed presence for groupchat user: v4mfqiq8@conference.vnc.biz/quy.dang_video
+Presence displayed for user: v4mfqiq8@conference.vnc.biz/quy.dang_video
+Presence received from: v4mfqiq8@conference.vnc.biz/quy.dang_video
+JSJaCPresence {base: function, name: "presence", doc: document, setStatus: function, setShow: function…}
+Processed presence for regular user: quy.dang@vnc.biz (highest priority for: quy.dang@vnc.biz/VNCChat(1432289265151))
+Presence displayed for user: quy.dang@vnc.biz
+Presence received from: quy.dang@vnc.biz/947e2225-f961-451c-80d2-78e26cf0a5b6
+JSJaCPresence {base: function, name: "presence", doc: document, setStatus: function, setShow: function…}
+Processed presence for groupchat user: v4mfqiq8@conference.vnc.biz/quy.dang_video
+error
+Presence displayed for user: v4mfqiq8@conference.vnc.biz/quy.dang_video
+Presence received from: v4mfqiq8@conference.vnc.biz/quy.dang_video
+Presence sent (to: v4mfqiq8@conference.vnc.biz/phuong.vu, show: none, type: unavailable)
+JSJaCPresence {base: function, name: "presence", doc: document, setStatus: function, setShow: function…}
+Processed initial presence for regular user: v4mfqiq8@conference.vnc.biz (highest priority for: v4mfqiq8@conference.vnc.biz/phuong.vu)
+error
+Presence displayed for user: v4mfqiq8@conference.vnc.biz
+Presence received from: v4mfqiq8@conference.vnc.biz/phuong.vu
+Sent active chatstate to quy.dang@vnc.biz
+Sent inactive chatstate to quy.dang@vnc.biz
+JSJaCPresence {base: function, name: "presence", doc: document, setStatus: function, setShow: function…}
+Processed presence for regular user: br@vnc.biz (highest priority for: br@vnc.biz/androidWOk4Eh6t)
+Presence displayed for user: br@vnc.biz
+Presence received from: br@vnc.biz/androidWOk4Eh6t
+Offering: baresip-vidqueue1419783570684_baresipvidqueue.patch 6036  Wed Apr 15 2015 18:43:18 GMT+0700 (SE Asia Standard Time)
+SENT:  <iq xmlns="jabber:client" to="quy.dang@vnc.biz/file_transfer" type="set" id="12b7d37f-6456-4fde-8916-7c45ad648700"><jingle xmlns="urn:xmpp:jingle:1" sid="1432289918002" action="session-initiate"><content creator="initiator" name="data"><description xmlns="urn:xmpp:jingle:apps:file-transfer:3"><offer><file><date>2015-04-15T11:43:18.091Z</date><name>baresip-vidqueue1419783570684_baresipvidqueue.patch</name><size>6036</size><hash xmlns="urn:xmpp:hashes:1" algo="sha-1"></hash></file></offer></description><transport xmlns="urn:xmpp:jingle:transports:ice-udp:1" ufrag="6uSpovvyUE0pHQpW" pwd="0MmKhi8Awc0uKHUPxttaIpcp"><fingerprint xmlns="urn:xmpp:jingle:apps:dtls:0" hash="sha-256" setup="actpass">25:4F:66:01:02:CD:08:90:91:AA:33:E0:83:5F:D2:21:AC:C2:3A:9C:0B:7E:3C:E0:AA:23:5A:05:4C:AB:64:4F</fingerprint><sctpmap xmlns="urn:xmpp:jingle:transports:dtls-sctp:1" number="5000" protocol="webrtc-datachannel" streams="1024"/></transport></content></jingle></iq>
+SENT:  <iq xmlns="jabber:client" to="quy.dang@vnc.biz/file_transfer" type="set" id="87a72037-29df-456f-91f6-90c11b15a8aa"><jingle xmlns="urn:xmpp:jingle:1" sid="1432289918002" action="transport-info"><content name="data" creator="initiator"><transport xmlns="urn:xmpp:jingle:transports:ice-udp:1" ufrag="6uSpovvyUE0pHQpW" pwd="0MmKhi8Awc0uKHUPxttaIpcp"><candidate foundation="2833632578" component="1" protocol="udp" priority="2122255103" ip="2001::9d38:90d7:1c43:758:3f57:fe3e" port="58764" type="host" generation="0" network="1" id="0.k0qrfc33as"/></transport></content></jingle></iq>
+SENT:  <iq xmlns="jabber:client" to="quy.dang@vnc.biz/file_transfer" type="set" id="06637079-5e09-43fd-aaef-9211c2d75cbe"><jingle xmlns="urn:xmpp:jingle:1" sid="1432289918002" action="transport-info"><content name="data" creator="initiator"><transport xmlns="urn:xmpp:jingle:transports:ice-udp:1" ufrag="6uSpovvyUE0pHQpW" pwd="0MmKhi8Awc0uKHUPxttaIpcp"><candidate foundation="2885715399" component="1" protocol="udp" priority="2122194687" ip="192.168.1.193" port="58765" type="host" generation="0" network="1" id="2.k0qrfc33as"/></transport></content></jingle></iq>
+SENT:  <iq xmlns="jabber:client" to="quy.dang@vnc.biz/file_transfer" type="set" id="9f255df8-ed57-445a-ae75-6c0cb73b42f7"><jingle xmlns="urn:xmpp:jingle:1" sid="1432289918002" action="transport-info"><content name="data" creator="initiator"><transport xmlns="urn:xmpp:jingle:transports:ice-udp:1" ufrag="6uSpovvyUE0pHQpW" pwd="0MmKhi8Awc0uKHUPxttaIpcp"><candidate foundation="3865457074" component="1" protocol="tcp" priority="1518275327" ip="2001::9d38:90d7:1c43:758:3f57:fe3e" port="0" type="host" generation="0" tcptype="active" network="1" id="4.k0qrfc33as"/></transport></content></jingle></iq>
+SENT:  <iq xmlns="jabber:client" to="quy.dang@vnc.biz/file_transfer" type="set" id="4db0c64d-44c1-4ad3-97e8-91e6b4a861f2"><jingle xmlns="urn:xmpp:jingle:1" sid="1432289918002" action="transport-info"><content name="data" creator="initiator"><transport xmlns="urn:xmpp:jingle:transports:ice-udp:1" ufrag="6uSpovvyUE0pHQpW" pwd="0MmKhi8Awc0uKHUPxttaIpcp"><candidate foundation="3800267063" component="1" protocol="tcp" priority="1518214911" ip="192.168.1.193" port="0" type="host" generation="0" tcptype="active" network="1" id="6.k0qrfc33as"/></transport></content></jingle></iq>
+RECV:  <iq type="result" to="phuong.vu@vnc.biz/file_transfer" from="quy.dang@vnc.biz/file_transfer" id="12b7d37f-6456-4fde-8916-7c45ad648700" xmlns="jabber:client" xml:lang="en"/>
+RECV  [object Object]
+RECV:  <iq type="result" to="phuong.vu@vnc.biz/file_transfer" from="quy.dang@vnc.biz/file_transfer" id="87a72037-29df-456f-91f6-90c11b15a8aa" xmlns="jabber:client" xml:lang="en"/>
+RECV  [object Object]
+RECV:  <iq type="result" to="phuong.vu@vnc.biz/file_transfer" from="quy.dang@vnc.biz/file_transfer" id="06637079-5e09-43fd-aaef-9211c2d75cbe" xmlns="jabber:client" xml:lang="en"/>
+RECV  [object Object]
+RECV:  <iq type="result" to="phuong.vu@vnc.biz/file_transfer" from="quy.dang@vnc.biz/file_transfer" id="9f255df8-ed57-445a-ae75-6c0cb73b42f7" xmlns="jabber:client" xml:lang="en"/>
+RECV  [object Object]
+RECV:  <iq type="result" to="phuong.vu@vnc.biz/file_transfer" from="quy.dang@vnc.biz/file_transfer" id="4db0c64d-44c1-4ad3-97e8-91e6b4a861f2" xmlns="jabber:client" xml:lang="en"/>
+RECV  [object Object]
+RECV:  <iq type="set" to="phuong.vu@vnc.biz/file_transfer" from="quy.dang@vnc.biz/file_transfer" id="b1e7a5f4-539f-455a-bd8b-345465fa487f" xmlns="jabber:client" xml:lang="en"><jingle sid="1432289918002" action="session-accept" xmlns="urn:xmpp:jingle:1"><content creator="initiator" name="data"><transport ufrag="4wqEXprURX8tBlLb" pwd="CqWFlAFVgcPAI1NWxCDTHpc6" xmlns="urn:xmpp:jingle:transports:ice-udp:1"><fingerprint hash="sha-256" setup="active" xmlns="urn:xmpp:jingle:apps:dtls:0">D9:37:23:9A:26:D7:24:C2:AD:8F:B4:14:80:FF:47:4D:D9:3B:2B:77:03:50:03:A5:14:60:8A:48:A1:30:D9:99</fingerprint><sctpmap number="5000" streams="1024" protocol="webrtc-datachannel" xmlns="urn:xmpp:jingle:transports:dtls-sctp:1"/></transport></content></jingle></iq>
+RECV  [object Object]
+SENT:  <iq xmlns="jabber:client" to="quy.dang@vnc.biz/file_transfer" id="b1e7a5f4-539f-455a-bd8b-345465fa487f" type="result"/>
+RECV:  <iq type="set" to="phuong.vu@vnc.biz/file_transfer" from="quy.dang@vnc.biz/file_transfer" id="40d21a78-7fc9-40da-b18b-aa01434d136f" xmlns="jabber:client" xml:lang="en"><jingle sid="1432289918002" action="transport-info" xmlns="urn:xmpp:jingle:1"><content name="data" creator="responder"><transport ufrag="4wqEXprURX8tBlLb" pwd="CqWFlAFVgcPAI1NWxCDTHpc6" xmlns="urn:xmpp:jingle:transports:ice-udp:1"><candidate type="host" protocol="udp" id="4.il1qhou7l3" ip="192.168.9.10" component="1" port="50655" foundation="3236294799" generation="0" priority="2122260223" network="1"/></transport></content></jingle></iq>
+RECV  [object Object]
+RECV:  <iq type="set" to="phuong.vu@vnc.biz/file_transfer" from="quy.dang@vnc.biz/file_transfer" id="48af9fec-1d90-4044-85ce-591918f0314d" xmlns="jabber:client" xml:lang="en"><jingle sid="1432289918002" action="transport-info" xmlns="urn:xmpp:jingle:1"><content name="data" creator="responder"><transport ufrag="4wqEXprURX8tBlLb" pwd="CqWFlAFVgcPAI1NWxCDTHpc6" xmlns="urn:xmpp:jingle:transports:ice-udp:1"><candidate type="host" protocol="udp" id="8.il1qhou7l3" ip="169.254.237.249" component="1" port="50656" foundation="303122832" generation="0" priority="2122194687" network="1"/></transport></content></jingle></iq>
+RECV  [object Object]
+RECV:  <iq type="set" to="phuong.vu@vnc.biz/file_transfer" from="quy.dang@vnc.biz/file_transfer" id="7b6e0798-e307-4e52-ae2a-7774914bc2ab" xmlns="jabber:client" xml:lang="en"><jingle sid="1432289918002" action="transport-info" xmlns="urn:xmpp:jingle:1"><content name="data" creator="responder"><transport ufrag="4wqEXprURX8tBlLb" pwd="CqWFlAFVgcPAI1NWxCDTHpc6" xmlns="urn:xmpp:jingle:transports:ice-udp:1"><candidate rel-port="50655" type="srflx" protocol="udp" id="a.il1qhou7l3" ip="171.233.48.1" component="1" port="50655" foundation="922061147" generation="0" rel-addr="192.168.9.10" priority="1686052607" network="1"/></transport></content></jingle></iq>
+RECV  [object Object]
+RECV:  <iq type="set" to="phuong.vu@vnc.biz/file_transfer" from="quy.dang@vnc.biz/file_transfer" id="68a666f9-48eb-443d-a65e-35fb8f9c937f" xmlns="jabber:client" xml:lang="en"><jingle sid="1432289918002" action="transport-info" xmlns="urn:xmpp:jingle:1"><content name="data" creator="responder"><transport ufrag="4wqEXprURX8tBlLb" pwd="CqWFlAFVgcPAI1NWxCDTHpc6" xmlns="urn:xmpp:jingle:transports:ice-udp:1"><candidate type="host" protocol="tcp" id="c.il1qhou7l3" ip="192.168.9.10" component="1" port="0" foundation="2389052543" generation="0" network="1" priority="1518280447" tcptype="active"/></transport></content></jingle></iq>
+RECV  [object Object]
+RECV:  <iq type="set" to="phuong.vu@vnc.biz/file_transfer" from="quy.dang@vnc.biz/file_transfer" id="e7db4648-0f7a-4d55-b3fc-38fbc5657e59" xmlns="jabber:client" xml:lang="en"><jingle sid="1432289918002" action="transport-info" xmlns="urn:xmpp:jingle:1"><content name="data" creator="responder"><transport ufrag="4wqEXprURX8tBlLb" pwd="CqWFlAFVgcPAI1NWxCDTHpc6" xmlns="urn:xmpp:jingle:transports:ice-udp:1"><candidate type="host" protocol="tcp" id="e.il1qhou7l3" ip="169.254.237.249" component="1" port="0" foundation="1553118560" generation="0" network="1" priority="1518214911" tcptype="active"/></transport></content></jingle></iq>
+RECV  [object Object]
+SENT:  <iq xmlns="jabber:client" to="quy.dang@vnc.biz/file_transfer" id="40d21a78-7fc9-40da-b18b-aa01434d136f" type="result"/>
+SENT:  <iq xmlns="jabber:client" to="quy.dang@vnc.biz/file_transfer" id="48af9fec-1d90-4044-85ce-591918f0314d" type="result"/>
+SENT:  <iq xmlns="jabber:client" to="quy.dang@vnc.biz/file_transfer" id="7b6e0798-e307-4e52-ae2a-7774914bc2ab" type="result"/>
+SENT:  <iq xmlns="jabber:client" to="quy.dang@vnc.biz/file_transfer" id="68a666f9-48eb-443d-a65e-35fb8f9c937f" type="result"/>
+SENT:  <iq xmlns="jabber:client" to="quy.dang@vnc.biz/file_transfer" id="e7db4648-0f7a-4d55-b3fc-38fbc5657e59" type="result"/>
+SENT:  <iq xmlns="jabber:client" to="quy.dang@vnc.biz/file_transfer" type="set" id="e4f41ceb-ae10-46f0-8341-e2722498556b"><jingle xmlns="urn:xmpp:jingle:1" sid="1432289918002" action="session-terminate"><reason><failed-transport xmlns="urn:xmpp:jingle:1"/></reason></jingle></iq>
+JSJaCPresence {base: function, name: "presence", doc: document, setStatus: function, setShow: function…}
+Processed presence for regular user: shantanu.kumar@vnc.biz (highest priority for: shantanu.kumar@vnc.biz/Pidgin)
+Presence displayed for user: shantanu.kumar@vnc.biz
+Presence received from: shantanu.kumar@vnc.biz/androidekrGT73E
+RECV:  <iq type="result" to="phuong.vu@vnc.biz/file_transfer" from="quy.dang@vnc.biz/file_transfer" id="e4f41ceb-ae10-46f0-8341-e2722498556b" xmlns="jabber:client" xml:lang="en"/>
+RECV  [object Object]
+JSJaCPresence {base: function, name: "presence", doc: document, setStatus: function, setShow: function…}
+Processed presence for regular user: shantanu.kumar@vnc.biz (highest priority for: shantanu.kumar@vnc.biz/Pidgin)
+Presence displayed for user: shantanu.kumar@vnc.biz
+Presence received from: shantanu.kumar@vnc.biz/androidekrGT73E
+JSJaCPresence {base: function, name: "presence", doc: document, setStatus: function, setShow: function…}
+Processed presence for regular user: shantanu.kumar@vnc.biz (highest priority for: shantanu.kumar@vnc.biz/Pidgin)
+Presence displayed for user: shantanu.kumar@vnc.biz
+Presence received from: shantanu.kumar@vnc.biz/androidekrGT73E
+RECV:  <iq type="set" to="phuong.vu@vnc.biz/file_transfer" from="quy.dang@vnc.biz/file_transfer" id="e6c360c1-713a-4f60-9bf6-a5ccca907627" xmlns="jabber:client" xml:lang="en"><jingle sid="1432289970477" action="session-initiate" xmlns="urn:xmpp:jingle:1"><content creator="initiator" name="data"><description xmlns="urn:xmpp:jingle:apps:file-transfer:3"><offer><file><date>2015-02-16T04:28:40.000Z</date><name>Xser_TC01_Linux_Basic_Introduction.pdf</name><size>229325</size><hash algo="sha-1" xmlns="urn:xmpp:hashes:1"/></file></offer></description><transport ufrag="mUBUi6u+zAbYyupG" pwd="mBs7wbM7J0nlkWt6NXXYmcuS" xmlns="urn:xmpp:jingle:transports:ice-udp:1"><fingerprint hash="sha-256" setup="actpass" xmlns="urn:xmpp:jingle:apps:dtls:0">D9:37:23:9A:26:D7:24:C2:AD:8F:B4:14:80:FF:47:4D:D9:3B:2B:77:03:50:03:A5:14:60:8A:48:A1:30:D9:99</fingerprint><sctpmap number="5000" streams="1024" protocol="webrtc-datachannel" xmlns="urn:xmpp:jingle:transports:dtls-sctp:1"/></transport></content></jingle></iq>
+RECV  [object Object]
+SENT:  <iq xmlns="jabber:client" to="quy.dang@vnc.biz/file_transfer" id="e6c360c1-713a-4f60-9bf6-a5ccca907627" type="result"/>
+Incoming file session request for: Xser_TC01_Linux_Basic_Introduction.pdf
+RECV:  <iq type="set" to="phuong.vu@vnc.biz/file_transfer" from="quy.dang@vnc.biz/file_transfer" id="1a8e0171-573a-49df-982d-7406816e46bb" xmlns="jabber:client" xml:lang="en"><jingle sid="1432289970477" action="transport-info" xmlns="urn:xmpp:jingle:1"><content name="data" creator="initiator"><transport ufrag="mUBUi6u+zAbYyupG" pwd="mBs7wbM7J0nlkWt6NXXYmcuS" xmlns="urn:xmpp:jingle:transports:ice-udp:1"><candidate type="host" protocol="udp" id="g.il1qhou7l3" ip="192.168.9.10" component="1" port="53583" foundation="3236294799" generation="0" priority="2122260223" network="1"/></transport></content></jingle></iq>
+RECV  [object Object]
+RECV:  <iq type="set" to="phuong.vu@vnc.biz/file_transfer" from="quy.dang@vnc.biz/file_transfer" id="c5fcda9d-22bb-41a3-886f-7bb058a8bfa3" xmlns="jabber:client" xml:lang="en"><jingle sid="1432289970477" action="transport-info" xmlns="urn:xmpp:jingle:1"><content name="data" creator="initiator"><transport ufrag="mUBUi6u+zAbYyupG" pwd="mBs7wbM7J0nlkWt6NXXYmcuS" xmlns="urn:xmpp:jingle:transports:ice-udp:1"><candidate type="host" protocol="udp" id="i.il1qhou7l3" ip="169.254.237.249" component="1" port="53584" foundation="303122832" generation="0" priority="2122194687" network="1"/></transport></content></jingle></iq>
+RECV  [object Object]
+RECV:  <iq type="set" to="phuong.vu@vnc.biz/file_transfer" from="quy.dang@vnc.biz/file_transfer" id="02cb9fc6-c8c2-4eff-8cd6-08a54c2db15f" xmlns="jabber:client" xml:lang="en"><jingle sid="1432289970477" action="transport-info" xmlns="urn:xmpp:jingle:1"><content name="data" creator="initiator"><transport ufrag="mUBUi6u+zAbYyupG" pwd="mBs7wbM7J0nlkWt6NXXYmcuS" xmlns="urn:xmpp:jingle:transports:ice-udp:1"><candidate type="host" protocol="tcp" id="k.il1qhou7l3" ip="192.168.9.10" component="1" port="0" foundation="2389052543" generation="0" network="1" priority="1518280447" tcptype="active"/></transport></content></jingle></iq>
+RECV  [object Object]
+RECV:  <iq type="set" to="phuong.vu@vnc.biz/file_transfer" from="quy.dang@vnc.biz/file_transfer" id="33cd75b1-78f3-4958-b8cf-90180f564006" xmlns="jabber:client" xml:lang="en"><jingle sid="1432289970477" action="transport-info" xmlns="urn:xmpp:jingle:1"><content name="data" creator="initiator"><transport ufrag="mUBUi6u+zAbYyupG" pwd="mBs7wbM7J0nlkWt6NXXYmcuS" xmlns="urn:xmpp:jingle:transports:ice-udp:1"><candidate type="host" protocol="tcp" id="m.il1qhou7l3" ip="169.254.237.249" component="1" port="0" foundation="1553118560" generation="0" network="1" priority="1518214911" tcptype="active"/></transport></content></jingle></iq>
+RECV  [object Object]
+JSJaCPresence {base: function, name: "presence", doc: document, setStatus: function, setShow: function…}
+Processed presence for regular user: shantanu.kumar@vnc.biz (highest priority for: shantanu.kumar@vnc.biz/androidekrGT73E)
+Presence displayed for user: shantanu.kumar@vnc.biz
+Presence received from: shantanu.kumar@vnc.biz/Pidgin
+SENT:  <iq xmlns="jabber:client" to="quy.dang@vnc.biz/file_transfer" id="1a8e0171-573a-49df-982d-7406816e46bb" type="result"/>
+SENT:  <iq xmlns="jabber:client" to="quy.dang@vnc.biz/file_transfer" id="c5fcda9d-22bb-41a3-886f-7bb058a8bfa3" type="result"/>
+SENT:  <iq xmlns="jabber:client" to="quy.dang@vnc.biz/file_transfer" id="02cb9fc6-c8c2-4eff-8cd6-08a54c2db15f" type="result"/>
+SENT:  <iq xmlns="jabber:client" to="quy.dang@vnc.biz/file_transfer" id="33cd75b1-78f3-4958-b8cf-90180f564006" type="result"/>
+
+SENT:  <iq xmlns="jabber:client" to="quy.dang@vnc.biz/file_transfer" type="set" id="b0427e6f-da8b-4f93-8822-3e392cc438b5"><jingle xmlns="urn:xmpp:jingle:1" sid="1432289970477" action="session-accept"><content creator="initiator" name="data"><transport xmlns="urn:xmpp:jingle:transports:ice-udp:1" ufrag="Fc3vYRQuCRs4aKeO" pwd="/2keuyGa7xLyqrZDgtzjL17K"><fingerprint xmlns="urn:xmpp:jingle:apps:dtls:0" hash="sha-256" setup="active">25:4F:66:01:02:CD:08:90:91:AA:33:E0:83:5F:D2:21:AC:C2:3A:9C:0B:7E:3C:E0:AA:23:5A:05:4C:AB:64:4F</fingerprint><sctpmap xmlns="urn:xmpp:jingle:transports:dtls-sctp:1" number="5000" protocol="webrtc-datachannel" streams="1024"/></transport></content></jingle></iq>
+SENT:  <iq xmlns="jabber:client" to="quy.dang@vnc.biz/file_transfer" type="set" id="3e49cf3d-1759-4d5a-80a3-1723015cdd76"><jingle xmlns="urn:xmpp:jingle:1" sid="1432289970477" action="transport-info"><content name="data" creator="responder"><transport xmlns="urn:xmpp:jingle:transports:ice-udp:1" ufrag="Fc3vYRQuCRs4aKeO" pwd="/2keuyGa7xLyqrZDgtzjL17K"><candidate foundation="2833632578" component="1" protocol="udp" priority="2122255103" ip="2001::9d38:90d7:1c43:758:3f57:fe3e" port="61314" type="host" generation="0" network="1" id="h.k0qrfc33as"/></transport></content></jingle></iq>
+SENT:  <iq xmlns="jabber:client" to="quy.dang@vnc.biz/file_transfer" type="set" id="c8a89d8a-eeed-499e-93d5-c051c2e903cc"><jingle xmlns="urn:xmpp:jingle:1" sid="1432289970477" action="transport-info"><content name="data" creator="responder"><transport xmlns="urn:xmpp:jingle:transports:ice-udp:1" ufrag="Fc3vYRQuCRs4aKeO" pwd="/2keuyGa7xLyqrZDgtzjL17K"><candidate foundation="2885715399" component="1" protocol="udp" priority="2122194687" ip="192.168.1.193" port="61315" type="host" generation="0" network="1" id="l.k0qrfc33as"/></transport></content></jingle></iq>
+SENT:  <iq xmlns="jabber:client" to="quy.dang@vnc.biz/file_transfer" type="set" id="5c5ed2d1-f386-4dc4-a53e-8f6e0de87cd1"><jingle xmlns="urn:xmpp:jingle:1" sid="1432289970477" action="transport-info"><content name="data" creator="responder"><transport xmlns="urn:xmpp:jingle:transports:ice-udp:1" ufrag="Fc3vYRQuCRs4aKeO" pwd="/2keuyGa7xLyqrZDgtzjL17K"><candidate foundation="3865457074" component="1" protocol="tcp" priority="1518275327" ip="2001::9d38:90d7:1c43:758:3f57:fe3e" port="0" type="host" generation="0" tcptype="active" network="1" id="n.k0qrfc33as"/></transport></content></jingle></iq>
+SENT:  <iq xmlns="jabber:client" to="quy.dang@vnc.biz/file_transfer" type="set" id="cfa0b209-cde7-4e10-8bbd-8f23058be165"><jingle xmlns="urn:xmpp:jingle:1" sid="1432289970477" action="transport-info"><content name="data" creator="responder"><transport xmlns="urn:xmpp:jingle:transports:ice-udp:1" ufrag="Fc3vYRQuCRs4aKeO" pwd="/2keuyGa7xLyqrZDgtzjL17K"><candidate foundation="3800267063" component="1" protocol="tcp" priority="1518214911" ip="192.168.1.193" port="0" type="host" generation="0" tcptype="active" network="1" id="p.k0qrfc33as"/></transport></content></jingle></iq>
+SENT:  <iq xmlns="jabber:client" to="quy.dang@vnc.biz/file_transfer" type="set" id="1d407656-51ea-4b86-a3cf-231ec8431baa"><jingle xmlns="urn:xmpp:jingle:1" sid="1432289970477" action="transport-info"><content name="data" creator="responder"><transport xmlns="urn:xmpp:jingle:transports:ice-udp:1" ufrag="Fc3vYRQuCRs4aKeO" pwd="/2keuyGa7xLyqrZDgtzjL17K"><candidate foundation="759726963" component="1" protocol="udp" priority="1685987071" ip="113.161.89.159" port="36008" type="srflx" generation="0" rel-addr="192.168.1.193" rel-port="61315" network="1" id="r.k0qrfc33as"/></transport></content></jingle></iq>
+
+2122255103
+2122194687
+1518275327
+1518214911
+1685987071
+
+RECV:  <iq type="result" to="phuong.vu@vnc.biz/file_transfer" from="quy.dang@vnc.biz/file_transfer" id="b0427e6f-da8b-4f93-8822-3e392cc438b5" xmlns="jabber:client" xml:lang="en"/>
+RECV  [object Object]
+RECV:  <iq type="result" to="phuong.vu@vnc.biz/file_transfer" from="quy.dang@vnc.biz/file_transfer" id="3e49cf3d-1759-4d5a-80a3-1723015cdd76" xmlns="jabber:client" xml:lang="en"/>
+RECV  [object Object]
+RECV:  <iq type="result" to="phuong.vu@vnc.biz/file_transfer" from="quy.dang@vnc.biz/file_transfer" id="c8a89d8a-eeed-499e-93d5-c051c2e903cc" xmlns="jabber:client" xml:lang="en"/>
+RECV  [object Object]
+RECV:  <iq type="result" to="phuong.vu@vnc.biz/file_transfer" from="quy.dang@vnc.biz/file_transfer" id="5c5ed2d1-f386-4dc4-a53e-8f6e0de87cd1" xmlns="jabber:client" xml:lang="en"/>
+RECV  [object Object]
+RECV:  <iq type="result" to="phuong.vu@vnc.biz/file_transfer" from="quy.dang@vnc.biz/file_transfer" id="cfa0b209-cde7-4e10-8bbd-8f23058be165" xmlns="jabber:client" xml:lang="en"/>
+RECV  [object Object]
+RECV:  <iq type="result" to="phuong.vu@vnc.biz/file_transfer" from="quy.dang@vnc.biz/file_transfer" id="1d407656-51ea-4b86-a3cf-231ec8431baa" xmlns="jabber:client" xml:lang="en"/>
+RECV  [object Object]
+RECV:  <iq type="set" to="phuong.vu@vnc.biz/file_transfer" from="quy.dang@vnc.biz/file_transfer" id="9020e820-b2bf-44a8-a0d2-a5f082b546b3" xmlns="jabber:client" xml:lang="en"><jingle sid="1432289970477" action="session-terminate" xmlns="urn:xmpp:jingle:1"><reason><failed-transport/></reason></jingle></iq>
+RECV  [object Object]
+SENT:  <iq xmlns="jabber:client" to="quy.dang@vnc.biz/file_transfer" id="9020e820-b2bf-44a8-a0d2-a5f082b546b3" type="result"/>
+JSJaCPresence {base: function, name: "presence", doc: document, setStatus: function, setShow: function…}
+Processed presence for regular user: shantanu.kumar@vnc.biz (highest priority for: shantanu.kumar@vnc.biz/androidekrGT73E)
+Presence displayed for user: shantanu.kumar@vnc.biz
+Presence received from: shantanu.kumar@vnc.biz/androidekrGT73E
+JSJaCPresence {base: function, name: "presence", doc: document, setStatus: function, setShow: function…}
+Processed presence for regular user: ravi.malkan@vnc.biz (highest priority for: ravi.malkan@vnc.biz/VNCChat(1432290014964))
+Presence displayed for user: ravi.malkan@vnc.biz
+Presence received from: ravi.malkan@vnc.biz/VNCChat(1432290014964)
+JSJaCPresence {base: function, name: "presence", doc: document, setStatus: function, setShow: function…}
+Processed presence for regular user: shantanu.kumar@vnc.biz (highest priority for: shantanu.kumar@vnc.biz/androidekrGT73E)
+Presence displayed for user: shantanu.kumar@vnc.biz
+Presence received from: shantanu.kumar@vnc.biz/androidekrGT73E
+JSJaCPresence {base: function, name: "presence", doc: document, setStatus: function, setShow: function…}
+Processed presence for regular user: shantanu.kumar@vnc.biz (highest priority for: shantanu.kumar@vnc.biz/androidekrGT73E)
+Presence displayed for user: shantanu.kumar@vnc.biz
+Presence received from: shantanu.kumar@vnc.biz/Pidgin
+JSJaCPresence {base: function, name: "presence", doc: document, setStatus: function, setShow: function…}
+Processed presence for regular user: shantanu.kumar@vnc.biz (highest priority for: shantanu.kumar@vnc.biz/Pidgin)
+Presence displayed for user: shantanu.kumar@vnc.biz
+Presence received from: shantanu.kumar@vnc.biz/Pidgin
+JSJaCPresence {base: function, name: "presence", doc: document, setStatus: function, setShow: function…}
+Processed presence for regular user: shantanu.kumar@vnc.biz (highest priority for: shantanu.kumar@vnc.biz/Pidgin)
+Presence displayed for user: shantanu.kumar@vnc.biz
+Presence received from: shantanu.kumar@vnc.biz/androidekrGT73E

@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Audio 3</title>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+</head>
+<body>
+
+<script type="text/javascript">
+var context;
+var bufferLoader;
+
+function loadAndPlay() {
+    try {
+        context = new AudioContext();
+    }
+    catch(e) {
+        alert("Web Audio API is not supported in this browser");
+    }
+
+    bufferLoader = new BufferLoader(
+        context,
+        ["a.mp3"],
+        finishedLoading
+    );
+
+    bufferLoader.load();
+}
+
+function loadAndPlayStaggered() {
+    try {
+        context = new AudioContext();
+    }
+    catch(e) {
+        alert("Web Audio API is not supported in this browser");
+    }
+
+    bufferLoader = new BufferLoader(
+        context,
+        ["a.mp3"],
+        finishedLoadingStaggered
+    );
+
+    bufferLoader.load();
+}
+
+function finishedLoading(bufferList) {
+    // Create three sources and buffers
+    var kick = context.createBufferSource();
+    var snare = context.createBufferSource();
+    var hihat = context.createBufferSource();
+    kick.buffer = bufferList[0];
+    snare.buffer = bufferList[1];
+    hihat.buffer = bufferList[2];
+    
+    kick.connect(context.destination);
+    snare.connect(context.destination);
+    hihat.connect(context.destination); 
+  // Play them together
+    kick.start(0);
+    snare.start(0);
+    hihat.start(0); 
+}
+function finishedLoadingStaggered(bufferList) {
+    // Create three sources and buffers
+    var kick = context.createBufferSource();
+    var snare = context.createBufferSource();
+    var hihat = context.createBufferSource();
+    kick.buffer = bufferList[0];
+    snare.buffer = bufferList[1];
+    hihat.buffer = bufferList[2];
+    
+    kick.connect(context.destination);
+    snare.connect(context.destination);
+    hihat.connect(context.destination); 
+  // Play them staggered
+    kick.start(0);
+    snare.start(0.125);
+    hihat.start(0.25);  
+}    
+</script>
+</body>
+</html>

@@ -56,7 +56,53 @@
 
     // };
 
+// self.soundPlay = (
+//         function () {
+//             console.log(">>>>>>>>>>>>>>>Playsound");
+//             debugger;
+//             var audio_select = document.createElement('audio'),
+//                 source1 = document.createElement('source'),
+//                 source2 = document.createElement('source');
+//             JAPPIX_STATIC = '/mini/';
+//             if (loadFromZimbra) {
+//                 JAPPIX_STATIC = "/service/proxy?target=" + AjxStringUtil.urlComponentEncode(ProsURL +"/mini");
+//             }
+//             audio_select.setAttribute('id','jm_audio');
+//             source1.setAttribute('src', JAPPIX_STATIC + '/sounds/receive-message.mp3');
+//             source1.setAttribute('type','audio/mpeg');
+//             source2.setAttribute('src', JAPPIX_STATIC + '/sounds/receive-message.oga');
+//             source2.setAttribute('type','audio/ogg');
+//             audio_select.appendChild(source1);
+//             audio_select.appendChild(source2);
 
+//             //document.getElementById('jappix_mini').appendChild(audio_select);
+//             return function () {
+//                 if (!JappixCommon.exists('#jappix_mini #jm_audio')) {
+//                     document.getElementById('jappix_mini').appendChild(audio_select);
+//                 }
+//                 // try {
+//                 // Not supported!
+//                 if ((BrowserDetect.browser == 'Explorer') && (BrowserDetect.version < 9)) {
+//                     return false;
+//                 }
+//                 console.log(">>>>>>>>>>>>",audio_select.paused);
+//                 if (!audio_select.paused) {
+//                     setTimeout(function () {
+//                         audio_select.pause();
+//                         audio_select.load();
+//                         console.log("SAU KHI PAUSE>>>>>>>>>>>>",audio_select.paused);
+//                         audio_select.play();
+//                         console.log("SAU KHI PLAY>>>>>>>>>>>>",audio_select.paused);
+//                     }, 1000);
+//                 }
+//                 else{
+//                     //audio_select.load();
+//                     audio_select.play();
+//                     console.log("PLAY binh thuong>>>>>>>>>>>>",audio_select.paused);
+//                 }
+//             }
+//         }
+//     )();
 </script>
 </body>
 </html>

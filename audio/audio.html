@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Document</title>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+</head>
+<body>
+<section id="sp">
+    <div id="pad1" data-sound="a.mp3"></div>
+</section>
+
+<script type="text/javascript">
+var AudioContext = window.AudioContext || window.webkitAudioContext;
+var context = new AudioContext();
+function loadAudio( object, url) {
+
+    var request = new XMLHttpRequest();
+    request.open('GET', url, true);
+    request.responseType = 'arraybuffer';
+
+    request.onload = function() {
+        context.decodeAudioData(request.response, function(buffer) {
+            object.buffer = buffer;
+        });
+    }
+    request.send();
+}
+
+function addAudioProperties(object) {
+    object.name = object.id;
+    object.source = $(object).data('sound');
+    loadAudio(object, object.source);
+    object.play = function () {
+        var s = context.createBufferSource();
+        s.buffer = object.buffer;
+        s.connect(context.destination);
+        s.start(0);
+        object.s = s;
+    }
+}
+
+$(function() {
+  $('#sp div').each(function() {
+        addAudioProperties(this);
+    });
+
+    $('#sp div').click(function() {
+        this.play();
+    });
+});
+
+</script>
+</body>
+</html>

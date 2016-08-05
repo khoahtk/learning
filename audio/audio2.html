@@ -9,12 +9,12 @@
 <button>Play</button>
 <script type="text/javascript">
 // Create Annonomuos Self Executing Function
-  
+$(document).ready(function() {
   var context = new AudioContext(); // Create and Initialize the Audio Context
   var electro; // Create the Sound 
   var getSound = new XMLHttpRequest();
    // Load the Sound with XMLHttpRequest
-  getSound.open("GET", "a.mp3", true); // Path to Audio File
+  getSound.open("GET", "b.mp3", true); // Path to Audio File
   getSound.responseType = "arraybuffer"; // Read as Binary Data
   getSound.onload = function() {
     context.decodeAudioData(getSound.response, function(buffer){
@@ -22,20 +22,55 @@
     });
   }
   getSound.send(); // Send the Request and Load the File
-  try {
-      var playSound = context.createBufferSource(); // Declare a New Sound
-      playSound.buffer = electro; // Attatch our Audio Data as it's Buffer
-      playSound.connect(context.destination);  // Link the Sound to the Output
-      playSound.start(0); // Play the Sound Immediately
-  }
-  catch(err) {
-    setTimeout(function() {
-      var playSound = context.createBufferSource(); // Declare a New Sound
-      playSound.buffer = electro; // Attatch our Audio Data as it's Buffer
-      playSound.connect(context.destination);  // Link the Sound to the Output
-      playSound.start(0); // Play the Sound Immediately
-    },3000);
-  }
+  // try {
+  //             var playSound = context.createBufferSource(); // Declare a New Sound
+  //             playSound.buffer = electro; // Attatch our Audio Data as it's Buffer
+  //             playSound.connect(context.destination);  // Link the Sound to the Output
+  //             playSound.start(0); // Play the Sound Immediately
+  //     }
+
+  // }
+  // catch(err) {
+  //   setTimeout(function() {
+  //     if(playSound) {
+  //       playSound.stop(0);
+  //     }
+  //     else {
+  //             var playSound = context.createBufferSource(); // Declare a New Sound
+  //             playSound.buffer = electro; // Attatch our Audio Data as it's Buffer
+  //             playSound.connect(context.destination);  // Link the Sound to the Output
+  //             playSound.start(0); // Play the Sound Immediately
+  //     }
+  //   },3000);
+  // }
+var playSound;
+  $('button').on('click', function() {
+    try {
+      playSound.stop(0); // Play the Sound Immediately
+    }
+    catch(err) {
+    }
+    finally {
+      try {
+        playSound = context.createBufferSource(); // Declare a New Sound
+        playSound.buffer = electro; // Attatch our Audio Data as it's Buffer
+        playSound.connect(context.destination);  // Link the Sound to the Output
+        playSound.start(0); // Play the Sound Immediately
+      }
+      catch(err) {
+        setTimeout(function() {
+          playSound = context.createBufferSource(); // Declare a New Sound
+          playSound.buffer = electro; // Attatch our Audio Data as it's Buffer
+          playSound.connect(context.destination);  // Link the Sound to the Output
+          playSound.start(0); // Play the Sound Immediately
+        },3000);
+      }
+
+    }
+
+
+  });
+});
 
 
   // window.addEventListener("keydown",onKeyDown); // Create Event Listener for KeyDown
@@ -55,6 +90,7 @@
     // getSound.onreadystatechange = function() {
 
     // };
+
 
 // self.soundPlay = (
 //         function () {
@@ -103,6 +139,8 @@
 //             }
 //         }
 //     )();
+
+
 </script>
 </body>
 </html>
